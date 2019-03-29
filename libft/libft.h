@@ -94,5 +94,6 @@ char				*ft_ltoa_base(long long int nbr, int base);
 char				*ft_utoa_base(unsigned long int nbr, int base);
 char				*ft_utoa_base_little(unsigned long long nbr, int base);
 char				*ft_strjoin_free(char *s1, char *s2, int free1, int free2);
+void				ft_swap(int *a, int *b);
 
 #endif

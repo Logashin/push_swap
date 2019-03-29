@@ -44,7 +44,7 @@ static char			intinstr(int n)
 
 static char			*numb(long long n, long long size)
 {
-	size_t					i;
+	long long				i;
 	long long				res2;
 	char					*str;
 	int						flag;
@@ -59,7 +59,7 @@ static char			*numb(long long n, long long size)
 		n = -n;
 		flag = 1;
 	}
-	while (size > (long long)i)
+	while (i >= 0)
 	{
 		res2 = n % 10;
 		n = n / 10;

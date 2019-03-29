@@ -12,18 +12,17 @@
 
 #include "header/push_swap.h"
 
-void		val_param(int argc, char **argv, int i)
+void		val_param(int argc, char **argv, int i, int j)
 {
-	int j;
-
-	j = 1;
 	while (argv[j][i] == ' ')
-        i++;
+		i++;
 	while (j < argc)
 	{
 		while (argv[j][i] != '\0')
 		{
-			if ((argv[j][i] == '-' && ft_isdigit(argv[j][i + 1]) && argv[j][i - 1] == ' ') || (argv[j][0] == '-' && ft_isdigit(argv[j][i + 1])))
+			if ((argv[j][i] == '-' && ft_isdigit(argv[j][i + 1]) &&
+				argv[j][i - 1] == ' ') || (argv[j][0] == '-' &&
+				ft_isdigit(argv[j][i + 1]) && i == 0))
 				i++;
 			else if (argv[j][i] >= '0' && argv[j][i] <= '9')
 				i++;
@@ -31,7 +30,7 @@ void		val_param(int argc, char **argv, int i)
 				i++;
 			else
 			{
-				ft_printf("ERROR: letters_in_the_parameters");
+				ft_printf("ERROR: letters_in_the_parameters\n");
 				exit(0);
 			}
 		}
@@ -47,8 +46,6 @@ void		val_numb(char **str)
 
 	i = 0;
 	j = 1;
-	if (str[j] == NULL || str[i] == NULL)
-		return ;
 	while (str[j] != NULL)
 	{
 		while (str[j] != NULL)
@@ -57,7 +54,7 @@ void		val_numb(char **str)
 				j++;
 			else
 			{
-				ft_printf("ERROR: identical_numbers");
+				ft_printf("ERROR: identical_numbers\n");
 				exit(0);
 			}
 		}
@@ -66,25 +63,28 @@ void		val_numb(char **str)
 	}
 }
 
-void		creat_struct_arr(t_swap *po, char *str)
+void		creat_struct_arr(t_swap *po, char *str, int i, int j)
 {
 	char		**arr;
-    int			i;
-    int			j;
 
-	i = 0;
-	j = 0;
 	arr = ft_strsplit(str, ' ');
 	free(str);
-	while(arr[j] != NULL)
+	while (arr[j] != NULL)
 		j++;
 	po->sizearr = j;
+	if (po->sizearr == 0)
+	{
+		ft_printf("ERROR: need_parameters!!!");
+		exit(0);
+	}
 	j = 0;
 	val_numb(arr);
-	po->arr = (int*)malloc(sizeof(int) * po->sizearr);
+	po->arra = (int*)malloc(sizeof(int) * po->sizearr);
+	po->arrb = (int*)malloc(sizeof(int) * po->sizearr);
 	while (arr[j] != NULL)
 	{
-		po->arr[i] = ft_atoi(arr[j]);
+		po->arra[i] = ft_atoi(arr[j]);
+		po->arrb[i] = 0;
 		free(arr[j]);
 		i++;
 		j++;
@@ -106,14 +106,17 @@ void		creat_one_str(t_swap *po, int argc, char **argv)
 		str = ft_strjoin_free(str, argv[j], 1, 0);
 		j++;
 	}
-	creat_struct_arr(po, str);
+	creat_struct_arr(po, str, 0, 0);
 }
 
 t_swap		*scan_argv(t_swap *po, int argc, char **argv)
 {
 	po = (t_swap*)malloc(sizeof(t_swap));
 	po->sizearr = 0;
-	val_param(argc, argv, 0);
+	po->sizea = 0;
+	po->sizeb = 0;
+	val_param(argc, argv, 0, 1);
 	creat_one_str(po, argc, argv);
+	po->sizea = po->sizearr;
 	return (po);
 }

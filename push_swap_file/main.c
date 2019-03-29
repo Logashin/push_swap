@@ -12,6 +12,34 @@
 
 #include "header/push_swap.h"
 
+void		print_swap(t_swap *po)
+{
+	int i;
+	int stop;
+
+	i = 0;
+	if (po->sizea >= po->sizeb)
+		stop = po->sizea;
+	else
+		stop = po->sizeb;
+	ft_printf("<************************>\n");
+	while (i < stop)
+	{
+		if (po->sizea <= i)
+			ft_printf("           |");
+		else
+			ft_printf("%11d|", po->arra[i]);
+		if (po->sizeb <= i)
+			ft_printf("   | \n");
+		else
+			ft_printf("   |%d\n", po->arrb[i]);
+		i++;
+	}
+	ft_printf("          _     _\n");
+	ft_printf("          a <*> b\n");
+	ft_printf("<************************>\n");
+}
+
 int			main (int argc, char **argv)
 {
 	t_swap		*po;
@@ -20,16 +48,46 @@ int			main (int argc, char **argv)
 	if (argc > 1)
 	{
 		po = scan_argv(po, argc, argv);
+		print_swap(po);
+//		ft_operations_sa(po);
+//		print_swap(po);
+//		ft_operations_ra(po);
+//		print_swap(po);
+		ft_operations_pb(po);
+		print_swap(po);
+		ft_operations_pb(po);
+		print_swap(po);
+		ft_operations_pb(po);
+		print_swap(po);
+		ft_operations_rb(po);
+		print_swap(po);
+//		ft_operations_rb(po);
+//		print_swap(po);
+		ft_operations_pa(po, 0);
+		print_swap(po);
+		ft_operations_pa(po, 0);
+		print_swap(po);
+		ft_operations_pa(po, 0);
+		print_swap(po);
+		ft_operations_pa(po, 0);
+		print_swap(po);
+		ft_operations_pb(po);
+		print_swap(po);
+		ft_operations_pa(po, 0);
+		print_swap(po);
+		ft_operations_pb(po);
+		print_swap(po);
+		ft_operations_pb(po);
+		print_swap(po);
+		ft_operations_pa(po, 0);
+		print_swap(po);
 	}
 	else
-		return 0;
-	int i = 0;
-	while (i < po->sizearr)
 	{
-		ft_printf("%d\n", po->arr[i]);
-		i++;
+		ft_printf("ERROR: need_parameters");
+		return (0);
 	}
-	free(po->arr);
+	free(po->arra);
 	free(po);
 	return (0);
 }
