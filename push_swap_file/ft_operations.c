@@ -27,7 +27,7 @@ void		ft_operations_pa(t_swap *po, int i)
 		ft_swap(&po->arra[0], &po->arrb[0]);
 		po->sizeb--;
 		po->sizea++;
-		if (po->arrb[1] != 0)
+		if (po->sizeb > 0)
 		{
 			i = 0;
 			while (i < po->sizeb)
@@ -83,4 +83,20 @@ void		ft_operations_pb_hp(t_swap *po)
 		i++;
 	}
 	po->sizea--;
+}
+
+void		ft_operations_sa(t_swap *po)
+{
+	if (po->sizea <= 1)
+		return ;
+	ft_swap(&po->arra[0], &po->arra[1]);
+	ft_printf("sa\n");
+}
+
+void		ft_operations_sb(t_swap *po)
+{
+	if (po->sizeb <= 1)
+		return ;
+	ft_swap(&po->arrb[0], &po->arrb[1]);
+	ft_printf("sb\n");
 }

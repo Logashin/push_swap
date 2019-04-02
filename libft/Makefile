@@ -70,6 +70,7 @@ FILEC =	ft_strlen.c \
 		ft_utoa_base_little.c \
 		ft_join_free.c \
 		ft_swap.c \
+		ft_latoi.c \
 
 FT_PRINTF =  	ft_printf.c \
 		ft_struct.c \

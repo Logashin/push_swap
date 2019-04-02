@@ -12,41 +12,39 @@
 
 #include "header/push_swap.h"
 
-void		ft_operations_sa(t_swap *po)
+void		ft_operations_rr1(t_swap *po)
 {
-	if (po->sizea < 1)
-		return ;
-	ft_swap(&po->arra[0], &po->arra[1]);
-	ft_printf("sa\n");
+	int tmp;
+	int i;
+
+	tmp = po->arra[0];
+	i = 0;
+	while (i < po->sizea - 1)
+	{
+		po->arra[i] = po->arra[i + 1];
+		i++;
+	}
+	po->arra[i] = tmp;
 }
 
-void		ft_operations_sb(t_swap *po)
+void		ft_operations_rr2(t_swap *po)
 {
-	if (po->sizeb < 1)
-		return ;
-	ft_swap(&po->arrb[0], &po->arrb[1]);
-	ft_printf("sb\n");
-}
+	int tmp;
+	int i;
 
-void		ft_operations_ss(t_swap *po)
-{
-	if (po->sizea > 1)
-		return ;
-	if (po->sizeb > 1)
-		return ;
-	ft_swap(&po->arra[0], &po->arra[1]);
-	ft_swap(&po->arrb[0], &po->arrb[1]);
-	ft_printf("ss\n");
-}
-
-void		ft_operations_rrr(t_swap *po)
-{
-	ft_operations_rra(po);
-	ft_operations_rrb(po);
+	tmp = po->arrb[0];
+	i = 0;
+	while (i < po->sizeb - 1)
+	{
+		po->arrb[i] = po->arrb[i + 1];
+		i++;
+	}
+	po->arrb[i] = tmp;
 }
 
 void		ft_operations_rr(t_swap *po)
 {
-	ft_operations_ra(po);
-	ft_operations_rb(po);
+	ft_operations_rr1(po);
+	ft_operations_rr2(po);
+	ft_printf("rr\n");
 }

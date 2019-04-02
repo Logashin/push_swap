@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   push_swap.h                                        :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: tmann <marvin@42.fr>                       +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2019/04/02 19:55:31 by tmann             #+#    #+#             */
+/*   Updated: 2019/04/02 19:55:36 by tmann            ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #ifndef PUSH_SWAP_H
 # define PUSH_SWAP_H
 # include "../../libft/libft.h"
@@ -29,5 +41,8 @@ void				ft_operations_rb(t_swap *po);
 void				ft_operations_rra(t_swap *po);
 void				ft_operations_rrb(t_swap *po);
 void				ft_operations_rrr(t_swap *po);
+void				ft_operations_rr(t_swap *po);
+void				ft_sort(t_swap *po);
+int					checksort(t_swap *po);
 
 #endif

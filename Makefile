@@ -3,6 +3,10 @@ NAME = push_swap
 SRCPS = main.c \
 		scan_argv.c \
 		ft_operations.c \
+		ft_operations_p2.c \
+		ft_operations_p3.c \
+		ft_operations_p4.c \
+		ft_sort.c \
 
 DIRSWAP = push_swap_file
 

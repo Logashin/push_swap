@@ -25,7 +25,7 @@ void		ft_operations_rra(t_swap *po)
 		i--;
 	}
 	po->arra[i] = tmp;
-	ft_printf("ra\n");
+	ft_printf("rra\n");
 }
 
 void		ft_operations_rrb(t_swap *po)
@@ -41,7 +41,7 @@ void		ft_operations_rrb(t_swap *po)
 		i--;
 	}
 	po->arrb[i] = tmp;
-	ft_printf("rb\n");
+	ft_printf("rrb\n");
 }
 
 void		ft_operations_ra(t_swap *po)
@@ -74,4 +74,15 @@ void		ft_operations_rb(t_swap *po)
 	}
 	po->arrb[i] = tmp;
 	ft_printf("rb\n");
+}
+
+void		ft_operations_ss(t_swap *po)
+{
+	if (po->sizea > 1)
+		return ;
+	if (po->sizeb > 1)
+		return ;
+	ft_swap(&po->arra[0], &po->arra[1]);
+	ft_swap(&po->arrb[0], &po->arrb[1]);
+	ft_printf("ss\n");
 }

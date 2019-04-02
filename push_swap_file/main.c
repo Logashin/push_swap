@@ -40,7 +40,7 @@ void		print_swap(t_swap *po)
 	ft_printf("<************************>\n");
 }
 
-int			main (int argc, char **argv)
+int			main(int argc, char **argv)
 {
 	t_swap		*po;
 
@@ -48,39 +48,7 @@ int			main (int argc, char **argv)
 	if (argc > 1)
 	{
 		po = scan_argv(po, argc, argv);
-		print_swap(po);
-//		ft_operations_sa(po);
-//		print_swap(po);
-//		ft_operations_ra(po);
-//		print_swap(po);
-		ft_operations_pb(po);
-		print_swap(po);
-		ft_operations_pb(po);
-		print_swap(po);
-		ft_operations_pb(po);
-		print_swap(po);
-		ft_operations_rb(po);
-		print_swap(po);
-//		ft_operations_rb(po);
-//		print_swap(po);
-		ft_operations_pa(po, 0);
-		print_swap(po);
-		ft_operations_pa(po, 0);
-		print_swap(po);
-		ft_operations_pa(po, 0);
-		print_swap(po);
-		ft_operations_pa(po, 0);
-		print_swap(po);
-		ft_operations_pb(po);
-		print_swap(po);
-		ft_operations_pa(po, 0);
-		print_swap(po);
-		ft_operations_pb(po);
-		print_swap(po);
-		ft_operations_pb(po);
-		print_swap(po);
-		ft_operations_pa(po, 0);
-		print_swap(po);
+		ft_sort(po);
 	}
 	else
 	{
