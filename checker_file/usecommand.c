@@ -6,7 +6,7 @@
 /*   By: tmann <tmann@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/04/03 14:51:38 by tmann             #+#    #+#             */
-/*   Updated: 2019/04/03 18:35:50 by tmann            ###   ########.fr       */
+/*   Updated: 2019/04/03 19:55:32 by tmann            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -82,7 +82,10 @@ void			use_command(t_swap *po, char **str, int j)
 			ft_operations_pb(po);
 		hp_use_command(po, str, j);
 		if (po->flag == 2)
+		{
+			ft_printf("<%s>\n", str[j]);
 			print_swap(po);
+		}
 	}
 }
 
