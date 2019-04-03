@@ -87,13 +87,13 @@ void		ft_sort(t_swap *po)
 		if (po->arra[i] != min && po->arra[i] != max)
 		{
 			ft_operations_pb(po);
-			print_swap(po);
+//			print_swap(po);
 			i--;
 		}
 		else
 		{
 			ft_operations_ra(po);
-			print_swap(po);
+//			print_swap(po);
 			i--;
 		}
 		i++;
@@ -102,7 +102,7 @@ void		ft_sort(t_swap *po)
 	if (po->arra[0] == max && po->arra[2] == min)
 	{
 		ft_operations_sa(po);
-		print_swap(po);
+//		print_swap(po);
 	}
 
 	while (po->sizeb != 0)
@@ -110,12 +110,12 @@ void		ft_sort(t_swap *po)
 		if (po->arra[0] == max && po->arra[2] == min)
 		{
 			ft_operations_sa(po);
-			print_swap(po);
+//			print_swap(po);
 		}
 		if (po->arra[0] > po->arrb[0] && po->arra[po->sizea - 1] < po->arrb[0])
 		{
 			ft_operations_pa(po, 0);
-			print_swap(po);
+//			print_swap(po);
 		}
 		else
 		{
@@ -123,7 +123,7 @@ void		ft_sort(t_swap *po)
 				ft_operations_sb(po);
 			else
 				ft_operations_ra(po);
-			print_swap(po);
+//			print_swap(po);
 		}
 	}
 	i = 0;
@@ -131,7 +131,7 @@ void		ft_sort(t_swap *po)
 	{
 		if (po->arra[0] == min)
 		{
-		print_swap(po);
+//		print_swap(po);
 			break ;
 		}
 		else

@@ -6,7 +6,7 @@
 /*   By: tmann <tmann@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/11/27 14:48:58 by tmann             #+#    #+#             */
-/*   Updated: 2019/03/26 19:07:49 by tmann            ###   ########.fr       */
+/*   Updated: 2019/04/03 18:25:46 by tmann            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -96,5 +96,6 @@ char				*ft_utoa_base_little(unsigned long long nbr, int base);
 char				*ft_strjoin_free(char *s1, char *s2, int free1, int free2);
 void				ft_swap(int *a, int *b);
 long				ft_latoi(const char *str);
+void				ft_free_two_arr(char **str);
 
 #endif

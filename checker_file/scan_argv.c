@@ -6,13 +6,13 @@
 /*   By: tmann <tmann@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/03/27 16:20:38 by tmann             #+#    #+#             */
-/*   Updated: 2019/04/03 13:58:58 by tmann            ###   ########.fr       */
+/*   Updated: 2019/04/03 17:44:06 by tmann            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "header/push_swap.h"
+#include "header/ft_checker.h"
 
-void		val_param(int argc, char **argv, int i, int j)
+void		cval_param(int argc, char **argv, int i, int j)
 {
 	while (argv[j][i] == ' ')
 		i++;
@@ -39,7 +39,7 @@ void		val_param(int argc, char **argv, int i, int j)
 	}
 }
 
-void		val_numb(char **str)
+void		cval_numb(char **str)
 {
 	size_t i;
 	size_t j;
@@ -68,7 +68,7 @@ void		val_numb(char **str)
 	}
 }
 
-void		creat_struct_arr(t_swap *po, char *str, int i, int j)
+void		ccreat_struct_arr(t_swap *po, char *str, int i, int j)
 {
 	char		**arr;
 
@@ -79,11 +79,11 @@ void		creat_struct_arr(t_swap *po, char *str, int i, int j)
 	po->sizearr = j;
 	if (po->sizearr == 0)
 	{
-		ft_printf("ERROR: need_parameters!!!\n");
+		ft_printf("ERROR: need_parameters!!!");
 		exit(0);
 	}
 	j = 0;
-	val_numb(arr);
+	cval_numb(arr);
 	po->arra = (int*)malloc(sizeof(int) * po->sizearr);
 	po->arrb = (int*)malloc(sizeof(int) * po->sizearr);
 	while (arr[j] != NULL)
@@ -97,12 +97,15 @@ void		creat_struct_arr(t_swap *po, char *str, int i, int j)
 	free(arr);
 }
 
-void		creat_one_str(t_swap *po, int argc, char **argv)
+void		ccreat_one_str(t_swap *po, int argc, char **argv)
 {
 	char		*str;
 	int			j;
 
-	j = 1;
+	if (po->flag == 2)
+		j = 2;
+	else
+		j = 1;
 	str = ft_strdup(argv[j]);
 	j++;
 	while (j < argc)
@@ -111,17 +114,18 @@ void		creat_one_str(t_swap *po, int argc, char **argv)
 		str = ft_strjoin_free(str, argv[j], 1, 0);
 		j++;
 	}
-	creat_struct_arr(po, str, 0, 0);
+	ccreat_struct_arr(po, str, 0, 0);
 }
 
-t_swap		*scan_argv(t_swap *po, int argc, char **argv)
+t_swap		*ccheck_argv(t_swap *po, int argc, char **argv)
 {
 	po = (t_swap*)malloc(sizeof(t_swap));
 	po->sizearr = 0;
 	po->sizea = 0;
 	po->sizeb = 0;
-	val_param(argc, argv, 0, 1);
-	creat_one_str(po, argc, argv);
+	check_flag(argv[1], po, argc);
+	cval_param(argc, argv, 0, po->flag);
+	ccreat_one_str(po, argc, argv);
 	po->sizea = po->sizearr;
 	return (po);
 }

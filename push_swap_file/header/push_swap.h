@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   push_swap.h                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: tmann <marvin@42.fr>                       +#+  +:+       +#+        */
+/*   By: tmann <tmann@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/04/02 19:55:31 by tmann             #+#    #+#             */
-/*   Updated: 2019/04/02 19:55:36 by tmann            ###   ########.fr       */
+/*   Updated: 2019/04/03 17:36:48 by tmann            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,6 +21,7 @@ typedef struct		s_swap
 	int				sizearr;
 	int				sizea;
 	int 			sizeb;
+	int				flag;
 }					t_swap;
 
 int					main (int argc, char **argv);
