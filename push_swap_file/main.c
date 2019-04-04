@@ -55,7 +55,7 @@ int			main(int argc, char **argv)
 		ft_printf("ERROR: need_parameters");
 		return (0);
 	}
-	free(po->arra);
-	free(po);
+//	free(po->arra);
+//	free(po);
 	return (0);
 }

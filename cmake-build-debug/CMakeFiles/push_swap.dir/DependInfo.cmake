@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/tmann/CLionProjects/push_swap/libft/ft_bzero.c" "/Users/tmann/CLionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_bzero.c.o"
   "/Users/tmann/CLionProjects/push_swap/libft/ft_countc.c" "/Users/tmann/CLionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_countc.c.o"
   "/Users/tmann/CLionProjects/push_swap/libft/ft_countword.c" "/Users/tmann/CLionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_countword.c.o"
+  "/Users/tmann/CLionProjects/push_swap/libft/ft_free_two_arr.c" "/Users/tmann/CLionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_free_two_arr.c.o"
   "/Users/tmann/CLionProjects/push_swap/libft/ft_freearr.c" "/Users/tmann/CLionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_freearr.c.o"
   "/Users/tmann/CLionProjects/push_swap/libft/ft_intsize.c" "/Users/tmann/CLionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_intsize.c.o"
   "/Users/tmann/CLionProjects/push_swap/libft/ft_isalnum.c" "/Users/tmann/CLionProjects/push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_isalnum.c.o"

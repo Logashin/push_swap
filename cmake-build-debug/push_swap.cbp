@@ -92,6 +92,9 @@
 		<Unit filename="/Users/tmann/CLionProjects/push_swap/libft/ft_countword.c">
 			<Option target="push_swap"/>
 		</Unit>
+		<Unit filename="/Users/tmann/CLionProjects/push_swap/libft/ft_free_two_arr.c">
+			<Option target="push_swap"/>
+		</Unit>
 		<Unit filename="/Users/tmann/CLionProjects/push_swap/libft/ft_freearr.c">
 			<Option target="push_swap"/>
 		</Unit>
