@@ -43,5 +43,6 @@ clean:
 fclean: clean
 		make fclean -C libft
 		rm -f $(NAME)
+		rm -f $(NAMEC)
 
 re: fclean all

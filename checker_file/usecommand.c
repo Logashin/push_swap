@@ -6,7 +6,7 @@
 /*   By: tmann <tmann@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/04/03 14:51:38 by tmann             #+#    #+#             */
-/*   Updated: 2019/04/03 19:55:32 by tmann            ###   ########.fr       */
+/*   Updated: 2019/04/05 15:08:26 by tmann            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,11 +25,6 @@ char			**readcom(int nb, char *tmp)
 		tmp = strmap;
 		strmap = ft_strjoin(strmap, strbuf);
 		free(tmp);
-	}
-	if (nb < 0 || strmap[0] == '\0' || strmap[1] == '\0')
-	{
-		write(1, "ERROR: Need_more_command\n", 26);
-		exit(0);
 	}
 	twoarr = ft_strsplit(strmap, '\n');
 	val_command(twoarr);
@@ -60,7 +55,7 @@ void			val_command(char **str)
 			j++;
 		else
 		{
-			ft_printf("ERROR: bad_command\n");
+			ft_printf("Error\n");
 			exit(0);
 		}
 	}

@@ -12,6 +12,21 @@
 
 #include "header/push_swap.h"
 
+void		ft_operations_arr(t_swap *po, int *arr)
+{
+	int tmp;
+	int i;
+
+	tmp = arr[0];
+	i = 0;
+	while (i < po->sizeb - 1)
+	{
+		arr[i] = arr[i + 1];
+		i++;
+	}
+	arr[i] = tmp;
+}
+
 int			ft_max(t_swap *po, int stop)
 {
 	int i;
@@ -60,23 +75,197 @@ int 		checkrotet(t_swap *po)
 {
 	int i;
 	int mid;
-//	int *arr;
-//
-//	arr = malloc(po->sizea);
-//	arr = po->arra;
+
+
 	i = 0;
 	mid = (po->sizea - 1) / 2;
-	while (i < po->sizeb)
+	while (i < po->sizea)
 	{
+//		if ((po->arra[i] < po->arrb[0] && po->arra[i + 1] > po->arrb[0]) || (po->arra[0] > po->arrb[0] && po->arra[po->sizea - 1] < po->arrb[0]))
+//		if ((po->arra[i] < po->arrb[0] && po->arra[i + 1] > po->arrb[i]) || (po->arra[po->sizea - 1] > po->arrb[0] && po->arra[i] < po->arrb[0]))
 		if ((po->arra[i] < po->arrb[0] && po->arra[i + 1] > po->arrb[0]) || (po->arra[0] > po->arrb[0] && po->arra[po->sizea - 1] < po->arrb[0]))
 			break ;
-			i++;
+		i++;
 	}
 	if (i >= mid)
 		return (1);
 	return (0);
 }
 
+int 		checkrotet_b(t_swap *po)
+{
+	int i;
+	int mid;
+
+
+	i = 0;
+	mid = (po->sizea - 1) / 2;
+	while (i < po->sizea)
+	{
+//		if ((po->arra[0] < po->arrb[i] && po->arra[0] > po->arrb[i + 1]) || (po->arra[0] > po->arrb[i] && po->arra[po->sizea - 1] < po->arrb[0]))
+//		if ((po->arra[i] < po->arrb[0] && po->arra[i + 1] > po->arrb[i]) || (po->arra[po->sizea - 1] > po->arrb[0] && po->arra[i] < po->arrb[0]))
+		if ((po->arra[0] < po->arrb[i] && po->arra[0] > po->arrb[i + 1]) || (po->arra[0] > po->arrb[i] && po->arra[po->sizea - 1] < po->arrb[0]))
+			break ;
+		i++;
+	}
+	if (i >= mid)
+		return (1);
+	return (0);
+}
+
+/////////////////////////////////////////test
+void 		checkrotetb(t_swap *po)
+{
+	int i;
+	int j;
+	int try;
+	int *arr;
+	int a;
+	int b;
+	int k;
+
+	k = 0;
+	arr = (int*)malloc(sizeof(int) * po->sizeb);
+	i = 0;
+	try = 0;
+	j = 0;
+	a = 0;
+	b = 0;
+//	while (i < po->sizea)
+//	{
+//		if ((po->arra[i] < po->arrb[0] && po->arra[i + 1] > po->arrb[0]) || (po->arra[0] > po->arrb[0] && po->arra[po->sizea - 1] < po->arrb[0]))
+//			break ;
+//		i++;
+//	}
+//	a = i;
+//	i = 0;
+//	while (i < po->sizeb)
+//	{
+////		if ((po->arrb[i] > po->arra[0] && po->arrb[i + 1] < po->arra[0]) || (po->arra[0] > po->arrb[0] && po->arra[po->sizea - 1] < po->arrb[0]))
+//		if (po->arra[0] > po->arrb[i] && po->arra[po->sizea - 1] < po->arrb[i] && po->sizeb > 0)
+//		{
+//			try = 1;
+//			break;
+//		}
+//		i++;
+//	}
+//	b = i;
+	while (i < po->sizeb - 1)
+	{
+		while (j < po->sizea - 1)
+		{
+			if ((po->arra[j] < po->arrb[i] && po->arra[j + 1] > po->arrb[i])  || (po->arra[po->sizea - 1] > po->arrb[i] && po->arra[0] < po->arrb[i]))
+			{
+				if (i < po->sizeb / 2 && j < po->sizea && po->sizeb >= 2)
+				{
+					arr[i] = j + i;
+					break ;
+				}
+				else if (po->sizeb / 2 <= i) //(po->sizeb > i)
+				{
+					arr[i] = po->sizeb - i;
+					break ;
+				}
+				else {
+					arr[i] = j + i;
+					break;
+				}
+			}
+			j++;
+		}
+		j = 0;
+		i++;
+	}
+	a = arr[0];
+	b = 0;
+	while (k < po->sizeb)
+	{
+		if (arr[k] + k <  a + b)
+		{
+			a = arr[k];
+			b = k;
+		}
+			k++;
+	}
+	if (b <= a)
+	{
+		if ((j <= po->sizeb / 2)) //(j < po->sizeb / 2)
+		{
+			while (b != 0) {
+				if (po->arra[0] > po->arrb[0] && po->arra[po->sizea - 1] < po->arrb[0] && po->sizeb > 0) {
+					ft_operations_pa(po, 0);
+					return;
+//			print_swap(po);
+				}
+				if (a != 0 && b != 0)
+				{
+					ft_operations_rr(po);
+					b--;
+					a--;
+				}
+				else
+					{
+					ft_operations_rb(po);
+					b--;
+				}
+//				a--;
+			}
+			if (po->arra[0] > po->arrb[0] && po->arra[po->sizea - 1] < po->arrb[0] && po->sizeb > 0) {
+				ft_operations_pa(po, 0);
+				return;
+			}
+		}
+		else
+		{
+			while (b != 0) {
+				if (po->arra[0] > po->arrb[0] && po->arra[po->sizea - 1] < po->arrb[0] && po->sizeb > 0) {
+					ft_operations_pa(po, 0);
+					return;
+//			print_swap(po);
+				}
+				if (a != 0 && b != 0) {
+					ft_operations_rrr(po);
+					b--;
+					a--;
+				} else {
+					ft_operations_rrb(po);
+					b--;
+				}
+//				a--;
+			}
+			if (po->arra[0] > po->arrb[0] && po->arra[po->sizea - 1] < po->arrb[0] && po->sizeb > 0) {
+				ft_operations_pa(po, 0);
+				return;
+			}
+		}
+	}
+		if (checkrotet(po) == 1)
+		{
+			while (po->sizeb != 0)
+			{
+				if (po->arra[0] > po->arrb[0] && po->arra[po->sizea - 1] < po->arrb[0] && po->sizeb > 0) {
+					ft_operations_pa(po, 0);
+					return;
+//			print_swap(po);
+				}
+				ft_operations_rra(po);
+			}
+		} else {
+			while (po->sizeb != 0)
+			{
+				if (po->arra[0] > po->arrb[0] && po->arra[po->sizea - 1] < po->arrb[0] && po->sizeb > 0) {
+					ft_operations_pa(po, 0);
+					return;
+//			print_swap(po);
+				}
+				ft_operations_ra(po);
+			}
+
+		}
+//	}
+}
+
+//////////////////////////////////////////////////////ALG
 void		ft_sort(t_swap *po)
 {
 	int i;
@@ -113,7 +302,8 @@ void		ft_sort(t_swap *po)
 		}
 		else
 		{
-			if ((po->arra[i] == max && po->arra[i + 1] == min) || (po->arra[i] == min && po->arra[i + 1] == max) || (po->arra[i + 2] == min || po->arra[i + 2] == max))
+//			if ((po->arra[i] != max && po->arra[i + 1] != min) || (po->arra[i] != min && po->arra[i + 1] != max) || (po->arra[i + 2] != min || po->arra[i + 2] != max) || (po->arra[i + 1] != min || po->arra[i + 1] != max))
+			if ((po->arra[i] != min || po->arra[i] != max) && (po->arra[i + 1] != min || po->arra[i + 1] != max) && (po->arra[i + 3] != min || po->arra[i + 3] != max))
 				while (po->sizea != 3)
 				{
 					if (po->arra[i] != min && po->arra[i] != max)
@@ -122,7 +312,7 @@ void		ft_sort(t_swap *po)
 						i--;
 					}
 					else {
-						ft_operations_rra(po);
+						ft_operations_ra(po);
 						i--;
 					}
 					i++;
@@ -142,61 +332,20 @@ void		ft_sort(t_swap *po)
 	}
 	if (po->arra[1] == min && po->arra[2] == max)
 		ft_operations_sa(po);
-	while (po->sizeb != 0)
-	{
-		if (po->arra[0] == max && po->arra[2] == min)
-		{
-			ft_operations_sa(po);
-//			print_swap(po);
-		}
+	while (po->sizeb != 0) {
+//		if (po->arra[0] == max && po->arra[2] == min) {
+//			ft_operations_sa(po);
+////			print_swap(po);
+//		}
 		if (po->arra[0] > po->arrb[0] && po->arra[po->sizea - 1] < po->arrb[0] && po->sizeb > 0)
 		{
 			ft_operations_pa(po, 0);
 //			print_swap(po);
 		}
-		else
-		{
-//			if (checkr(po, max) == 1)
-			if (checkrotet(po) == 1)
-			{
-				while (po->sizeb != 0)
-				{
-					ft_operations_rra(po);
-					if (po->arra[0] > po->arrb[0] && po->arra[po->sizea - 1] < po->arrb[0])
-					{
-						if (po->arra[0] == max && po->arra[2] == min)
-						{
-							ft_operations_sa(po);
-							break ;
-//			print_swap(po);
-						}
-						if (po->arra[0] > po->arrb[0] && po->arra[po->sizea - 1] < po->arrb[0] && po->sizeb > 0)
-						{
-							ft_operations_pa(po, 0);
-//						print_swap(po);
-						break ;
-						}
-					}
-				}
-			}
-//			else if (po->arrb[0] > po->arrb[1] && po->arra[0] < po->arra[1] && po->sizeb > 1)
-//				ft_operations_sb(po);
 			else
-				while (po->sizeb != 0)
-				{
-					if (po->arra[0] > po->arrb[0] && po->arra[po->sizea - 1] < po->arrb[0] && po->sizeb > 0)
-					{
-						ft_operations_pa(po, 0);
-						break ;
-//			print_swap(po);
-					}
-					ft_operations_ra(po);
-				}
-//			print_swap(po);
-		}
+			checkrotetb(po);
 	}
-	i = 0;
-	while (i < po->sizea)
+	while (po->arra[0] != min)
 	{
 		if (po->arra[0] == min)
 		{
@@ -205,7 +354,6 @@ void		ft_sort(t_swap *po)
 		}
 		else
 		{
-//			if (checkr(po, min) == 0)
 			if (checkr(po, min) == 0)
 			{
 				while (po->arra[0] != min)

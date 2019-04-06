@@ -30,7 +30,7 @@ void		val_param(int argc, char **argv, int i, int j)
 				i++;
 			else
 			{
-				ft_printf("ERROR: letters_in_the_parameters\n");
+				ft_printf("Error\n");
 				exit(0);
 			}
 		}
@@ -54,13 +54,13 @@ void		val_numb(char **str)
 				j++;
 			else
 			{
-				ft_printf("ERROR: identical_numbers\n");
+				ft_printf("Error\n");
 				exit(0);
 			}
 		}
 		if (ft_latoi(str[i]) > 2147483647 || ft_latoi(str[i]) < -2147483648)
 		{
-			ft_printf("ERROR: MAX_INT\n");
+			ft_printf("Error\n");
 			exit(0);
 		}
 		i++;
@@ -79,7 +79,7 @@ void		creat_struct_arr(t_swap *po, char *str, int i, int j)
 	po->sizearr = j;
 	if (po->sizearr == 0)
 	{
-		ft_printf("ERROR: need_parameters!!!\n");
+		ft_printf("Error\n");
 		exit(0);
 	}
 	j = 0;

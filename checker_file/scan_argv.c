@@ -6,7 +6,7 @@
 /*   By: tmann <tmann@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/03/27 16:20:38 by tmann             #+#    #+#             */
-/*   Updated: 2019/04/03 17:44:06 by tmann            ###   ########.fr       */
+/*   Updated: 2019/04/05 14:41:00 by tmann            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,7 +30,7 @@ void		cval_param(int argc, char **argv, int i, int j)
 				i++;
 			else
 			{
-				ft_printf("ERROR: letters_in_the_parameters\n");
+				ft_printf("Error\n");
 				exit(0);
 			}
 		}
@@ -54,13 +54,13 @@ void		cval_numb(char **str)
 				j++;
 			else
 			{
-				ft_printf("ERROR: identical_numbers\n");
+				ft_printf("Error\n");
 				exit(0);
 			}
 		}
 		if (ft_latoi(str[i]) > 2147483647 || ft_latoi(str[i]) < -2147483648)
 		{
-			ft_printf("ERROR: MAX_INT\n");
+			ft_printf("Error\n");
 			exit(0);
 		}
 		i++;
@@ -79,7 +79,7 @@ void		ccreat_struct_arr(t_swap *po, char *str, int i, int j)
 	po->sizearr = j;
 	if (po->sizearr == 0)
 	{
-		ft_printf("ERROR: need_parameters!!!");
+		ft_printf("Error");
 		exit(0);
 	}
 	j = 0;

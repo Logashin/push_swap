@@ -52,7 +52,7 @@ int			main(int argc, char **argv)
 	}
 	else
 	{
-		ft_printf("ERROR: need_parameters");
+		ft_printf("Error\n");
 		return (0);
 	}
 //	free(po->arra);
