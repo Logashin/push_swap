@@ -8,38 +8,38 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/tmann/CLionProjects/push_swap/cmake-build-debug"/>
+				<Option working_dir="/Users/tmann/Desktop/git_my_push_swap/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/tmann/CLionProjects/push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tmann/CLionProjects/push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tmann/CLionProjects/push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tmann/CLionProjects/push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tmann/Desktop/git_my_push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tmann/Desktop/git_my_push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tmann/Desktop/git_my_push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tmann/Desktop/git_my_push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/Users/tmann/CLionProjects/push_swap/cmake-build-debug"/>
+				<Option working_dir="/Users/tmann/Desktop/git_my_push_swap/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/tmann/CLionProjects/push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tmann/CLionProjects/push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tmann/CLionProjects/push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tmann/CLionProjects/push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tmann/Desktop/git_my_push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tmann/Desktop/git_my_push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tmann/Desktop/git_my_push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tmann/Desktop/git_my_push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/Users/tmann/CLionProjects/push_swap/cmake-build-debug"/>
+				<Option working_dir="/Users/tmann/Desktop/git_my_push_swap/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/tmann/CLionProjects/push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tmann/CLionProjects/push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tmann/CLionProjects/push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tmann/CLionProjects/push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tmann/Desktop/git_my_push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tmann/Desktop/git_my_push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tmann/Desktop/git_my_push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tmann/Desktop/git_my_push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="push_swap">
-				<Option output="/Users/tmann/CLionProjects/push_swap/cmake-build-debug/push_swap" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/tmann/CLionProjects/push_swap/cmake-build-debug"/>
+				<Option output="/Users/tmann/Desktop/git_my_push_swap/cmake-build-debug/push_swap" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tmann/Desktop/git_my_push_swap/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -52,15 +52,15 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/tmann/CLionProjects/push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 push_swap"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tmann/CLionProjects/push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tmann/CLionProjects/push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tmann/CLionProjects/push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tmann/Desktop/git_my_push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 push_swap"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tmann/Desktop/git_my_push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tmann/Desktop/git_my_push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tmann/Desktop/git_my_push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="push_swap/fast">
-				<Option output="/Users/tmann/CLionProjects/push_swap/cmake-build-debug/push_swap" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/tmann/CLionProjects/push_swap/cmake-build-debug"/>
+				<Option output="/Users/tmann/Desktop/git_my_push_swap/cmake-build-debug/push_swap" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tmann/Desktop/git_my_push_swap/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -73,305 +73,305 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/tmann/CLionProjects/push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 push_swap/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tmann/CLionProjects/push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tmann/CLionProjects/push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tmann/CLionProjects/push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tmann/Desktop/git_my_push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 push_swap/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tmann/Desktop/git_my_push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tmann/Desktop/git_my_push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tmann/Desktop/git_my_push_swap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/tmann/CLionProjects/push_swap/libft/ft_atoi.c">
+		<Unit filename="/Users/tmann/Desktop/git_my_push_swap/libft/ft_atoi.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/tmann/CLionProjects/push_swap/libft/ft_bzero.c">
+		<Unit filename="/Users/tmann/Desktop/git_my_push_swap/libft/ft_bzero.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/tmann/CLionProjects/push_swap/libft/ft_countc.c">
+		<Unit filename="/Users/tmann/Desktop/git_my_push_swap/libft/ft_countc.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/tmann/CLionProjects/push_swap/libft/ft_countword.c">
+		<Unit filename="/Users/tmann/Desktop/git_my_push_swap/libft/ft_countword.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/tmann/CLionProjects/push_swap/libft/ft_free_two_arr.c">
+		<Unit filename="/Users/tmann/Desktop/git_my_push_swap/libft/ft_free_two_arr.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/tmann/CLionProjects/push_swap/libft/ft_freearr.c">
+		<Unit filename="/Users/tmann/Desktop/git_my_push_swap/libft/ft_freearr.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/tmann/CLionProjects/push_swap/libft/ft_intsize.c">
+		<Unit filename="/Users/tmann/Desktop/git_my_push_swap/libft/ft_intsize.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/tmann/CLionProjects/push_swap/libft/ft_isalnum.c">
+		<Unit filename="/Users/tmann/Desktop/git_my_push_swap/libft/ft_isalnum.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/tmann/CLionProjects/push_swap/libft/ft_isalpha.c">
+		<Unit filename="/Users/tmann/Desktop/git_my_push_swap/libft/ft_isalpha.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/tmann/CLionProjects/push_swap/libft/ft_isascii.c">
+		<Unit filename="/Users/tmann/Desktop/git_my_push_swap/libft/ft_isascii.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/tmann/CLionProjects/push_swap/libft/ft_isdigit.c">
+		<Unit filename="/Users/tmann/Desktop/git_my_push_swap/libft/ft_isdigit.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/tmann/CLionProjects/push_swap/libft/ft_isprint.c">
+		<Unit filename="/Users/tmann/Desktop/git_my_push_swap/libft/ft_isprint.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/tmann/CLionProjects/push_swap/libft/ft_itoa.c">
+		<Unit filename="/Users/tmann/Desktop/git_my_push_swap/libft/ft_itoa.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/tmann/CLionProjects/push_swap/libft/ft_join_free.c">
+		<Unit filename="/Users/tmann/Desktop/git_my_push_swap/libft/ft_join_free.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/tmann/CLionProjects/push_swap/libft/ft_l_itoa.c">
+		<Unit filename="/Users/tmann/Desktop/git_my_push_swap/libft/ft_l_itoa.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/tmann/CLionProjects/push_swap/libft/ft_latoi.c">
+		<Unit filename="/Users/tmann/Desktop/git_my_push_swap/libft/ft_latoi.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/tmann/CLionProjects/push_swap/libft/ft_lstadd.c">
+		<Unit filename="/Users/tmann/Desktop/git_my_push_swap/libft/ft_lstadd.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/tmann/CLionProjects/push_swap/libft/ft_lstdel.c">
+		<Unit filename="/Users/tmann/Desktop/git_my_push_swap/libft/ft_lstdel.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/tmann/CLionProjects/push_swap/libft/ft_lstdelone.c">
+		<Unit filename="/Users/tmann/Desktop/git_my_push_swap/libft/ft_lstdelone.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/tmann/CLionProjects/push_swap/libft/ft_lstiter.c">
+		<Unit filename="/Users/tmann/Desktop/git_my_push_swap/libft/ft_lstiter.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/tmann/CLionProjects/push_swap/libft/ft_lstmap.c">
+		<Unit filename="/Users/tmann/Desktop/git_my_push_swap/libft/ft_lstmap.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/tmann/CLionProjects/push_swap/libft/ft_lstnew.c">
+		<Unit filename="/Users/tmann/Desktop/git_my_push_swap/libft/ft_lstnew.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/tmann/CLionProjects/push_swap/libft/ft_ltoa_base.c">
+		<Unit filename="/Users/tmann/Desktop/git_my_push_swap/libft/ft_ltoa_base.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/tmann/CLionProjects/push_swap/libft/ft_memalloc.c">
+		<Unit filename="/Users/tmann/Desktop/git_my_push_swap/libft/ft_memalloc.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/tmann/CLionProjects/push_swap/libft/ft_memccpy.c">
+		<Unit filename="/Users/tmann/Desktop/git_my_push_swap/libft/ft_memccpy.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/tmann/CLionProjects/push_swap/libft/ft_memchr.c">
+		<Unit filename="/Users/tmann/Desktop/git_my_push_swap/libft/ft_memchr.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/tmann/CLionProjects/push_swap/libft/ft_memcmp.c">
+		<Unit filename="/Users/tmann/Desktop/git_my_push_swap/libft/ft_memcmp.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/tmann/CLionProjects/push_swap/libft/ft_memcpy.c">
+		<Unit filename="/Users/tmann/Desktop/git_my_push_swap/libft/ft_memcpy.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/tmann/CLionProjects/push_swap/libft/ft_memdel.c">
+		<Unit filename="/Users/tmann/Desktop/git_my_push_swap/libft/ft_memdel.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/tmann/CLionProjects/push_swap/libft/ft_memmove.c">
+		<Unit filename="/Users/tmann/Desktop/git_my_push_swap/libft/ft_memmove.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/tmann/CLionProjects/push_swap/libft/ft_memset.c">
+		<Unit filename="/Users/tmann/Desktop/git_my_push_swap/libft/ft_memset.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/tmann/CLionProjects/push_swap/libft/ft_printf/ft_float_accuracy.c">
+		<Unit filename="/Users/tmann/Desktop/git_my_push_swap/libft/ft_printf/ft_float_accuracy.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/tmann/CLionProjects/push_swap/libft/ft_printf/ft_float_roun.c">
+		<Unit filename="/Users/tmann/Desktop/git_my_push_swap/libft/ft_printf/ft_float_roun.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/tmann/CLionProjects/push_swap/libft/ft_printf/ft_help_norm_for_d.c">
+		<Unit filename="/Users/tmann/Desktop/git_my_push_swap/libft/ft_printf/ft_help_norm_for_d.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/tmann/CLionProjects/push_swap/libft/ft_printf/ft_mod_lenght.c">
+		<Unit filename="/Users/tmann/Desktop/git_my_push_swap/libft/ft_printf/ft_mod_lenght.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/tmann/CLionProjects/push_swap/libft/ft_printf/ft_mod_lenght_2.c">
+		<Unit filename="/Users/tmann/Desktop/git_my_push_swap/libft/ft_printf/ft_mod_lenght_2.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/tmann/CLionProjects/push_swap/libft/ft_printf/ft_parse_format.c">
+		<Unit filename="/Users/tmann/Desktop/git_my_push_swap/libft/ft_printf/ft_parse_format.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/tmann/CLionProjects/push_swap/libft/ft_printf/ft_print_float.c">
+		<Unit filename="/Users/tmann/Desktop/git_my_push_swap/libft/ft_printf/ft_print_float.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/tmann/CLionProjects/push_swap/libft/ft_printf/ft_print_int.c">
+		<Unit filename="/Users/tmann/Desktop/git_my_push_swap/libft/ft_printf/ft_print_int.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/tmann/CLionProjects/push_swap/libft/ft_printf/ft_print_o_p.c">
+		<Unit filename="/Users/tmann/Desktop/git_my_push_swap/libft/ft_printf/ft_print_o_p.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/tmann/CLionProjects/push_swap/libft/ft_printf/ft_print_str_char_pr.c">
+		<Unit filename="/Users/tmann/Desktop/git_my_push_swap/libft/ft_printf/ft_print_str_char_pr.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/tmann/CLionProjects/push_swap/libft/ft_printf/ft_print_u.c">
+		<Unit filename="/Users/tmann/Desktop/git_my_push_swap/libft/ft_printf/ft_print_u.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/tmann/CLionProjects/push_swap/libft/ft_printf/ft_print_x.c">
+		<Unit filename="/Users/tmann/Desktop/git_my_push_swap/libft/ft_printf/ft_print_x.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/tmann/CLionProjects/push_swap/libft/ft_printf/ft_printf.c">
+		<Unit filename="/Users/tmann/Desktop/git_my_push_swap/libft/ft_printf/ft_printf.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/tmann/CLionProjects/push_swap/libft/ft_printf/ft_printf.h">
+		<Unit filename="/Users/tmann/Desktop/git_my_push_swap/libft/ft_printf/ft_printf.h">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/tmann/CLionProjects/push_swap/libft/ft_printf/ft_space_for_x.c">
+		<Unit filename="/Users/tmann/Desktop/git_my_push_swap/libft/ft_printf/ft_space_for_x.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/tmann/CLionProjects/push_swap/libft/ft_printf/ft_struct.c">
+		<Unit filename="/Users/tmann/Desktop/git_my_push_swap/libft/ft_printf/ft_struct.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/tmann/CLionProjects/push_swap/libft/ft_putchar.c">
+		<Unit filename="/Users/tmann/Desktop/git_my_push_swap/libft/ft_putchar.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/tmann/CLionProjects/push_swap/libft/ft_putchar_fd.c">
+		<Unit filename="/Users/tmann/Desktop/git_my_push_swap/libft/ft_putchar_fd.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/tmann/CLionProjects/push_swap/libft/ft_putendl.c">
+		<Unit filename="/Users/tmann/Desktop/git_my_push_swap/libft/ft_putendl.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/tmann/CLionProjects/push_swap/libft/ft_putendl_fd.c">
+		<Unit filename="/Users/tmann/Desktop/git_my_push_swap/libft/ft_putendl_fd.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/tmann/CLionProjects/push_swap/libft/ft_putnbr.c">
+		<Unit filename="/Users/tmann/Desktop/git_my_push_swap/libft/ft_putnbr.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/tmann/CLionProjects/push_swap/libft/ft_putnbr_fd.c">
+		<Unit filename="/Users/tmann/Desktop/git_my_push_swap/libft/ft_putnbr_fd.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/tmann/CLionProjects/push_swap/libft/ft_putstr.c">
+		<Unit filename="/Users/tmann/Desktop/git_my_push_swap/libft/ft_putstr.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/tmann/CLionProjects/push_swap/libft/ft_putstr_fd.c">
+		<Unit filename="/Users/tmann/Desktop/git_my_push_swap/libft/ft_putstr_fd.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/tmann/CLionProjects/push_swap/libft/ft_sqrt.c">
+		<Unit filename="/Users/tmann/Desktop/git_my_push_swap/libft/ft_sqrt.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/tmann/CLionProjects/push_swap/libft/ft_strcat.c">
+		<Unit filename="/Users/tmann/Desktop/git_my_push_swap/libft/ft_strcat.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/tmann/CLionProjects/push_swap/libft/ft_strchr.c">
+		<Unit filename="/Users/tmann/Desktop/git_my_push_swap/libft/ft_strchr.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/tmann/CLionProjects/push_swap/libft/ft_strclr.c">
+		<Unit filename="/Users/tmann/Desktop/git_my_push_swap/libft/ft_strclr.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/tmann/CLionProjects/push_swap/libft/ft_strcmp.c">
+		<Unit filename="/Users/tmann/Desktop/git_my_push_swap/libft/ft_strcmp.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/tmann/CLionProjects/push_swap/libft/ft_strcpy.c">
+		<Unit filename="/Users/tmann/Desktop/git_my_push_swap/libft/ft_strcpy.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/tmann/CLionProjects/push_swap/libft/ft_strdel.c">
+		<Unit filename="/Users/tmann/Desktop/git_my_push_swap/libft/ft_strdel.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/tmann/CLionProjects/push_swap/libft/ft_strdup.c">
+		<Unit filename="/Users/tmann/Desktop/git_my_push_swap/libft/ft_strdup.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/tmann/CLionProjects/push_swap/libft/ft_strequ.c">
+		<Unit filename="/Users/tmann/Desktop/git_my_push_swap/libft/ft_strequ.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/tmann/CLionProjects/push_swap/libft/ft_striter.c">
+		<Unit filename="/Users/tmann/Desktop/git_my_push_swap/libft/ft_striter.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/tmann/CLionProjects/push_swap/libft/ft_striteri.c">
+		<Unit filename="/Users/tmann/Desktop/git_my_push_swap/libft/ft_striteri.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/tmann/CLionProjects/push_swap/libft/ft_strjoin.c">
+		<Unit filename="/Users/tmann/Desktop/git_my_push_swap/libft/ft_strjoin.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/tmann/CLionProjects/push_swap/libft/ft_strlcat.c">
+		<Unit filename="/Users/tmann/Desktop/git_my_push_swap/libft/ft_strlcat.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/tmann/CLionProjects/push_swap/libft/ft_strlen.c">
+		<Unit filename="/Users/tmann/Desktop/git_my_push_swap/libft/ft_strlen.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/tmann/CLionProjects/push_swap/libft/ft_strmap.c">
+		<Unit filename="/Users/tmann/Desktop/git_my_push_swap/libft/ft_strmap.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/tmann/CLionProjects/push_swap/libft/ft_strmapi.c">
+		<Unit filename="/Users/tmann/Desktop/git_my_push_swap/libft/ft_strmapi.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/tmann/CLionProjects/push_swap/libft/ft_strncat.c">
+		<Unit filename="/Users/tmann/Desktop/git_my_push_swap/libft/ft_strncat.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/tmann/CLionProjects/push_swap/libft/ft_strncmp.c">
+		<Unit filename="/Users/tmann/Desktop/git_my_push_swap/libft/ft_strncmp.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/tmann/CLionProjects/push_swap/libft/ft_strncpy.c">
+		<Unit filename="/Users/tmann/Desktop/git_my_push_swap/libft/ft_strncpy.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/tmann/CLionProjects/push_swap/libft/ft_strnequ.c">
+		<Unit filename="/Users/tmann/Desktop/git_my_push_swap/libft/ft_strnequ.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/tmann/CLionProjects/push_swap/libft/ft_strnew.c">
+		<Unit filename="/Users/tmann/Desktop/git_my_push_swap/libft/ft_strnew.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/tmann/CLionProjects/push_swap/libft/ft_strnstr.c">
+		<Unit filename="/Users/tmann/Desktop/git_my_push_swap/libft/ft_strnstr.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/tmann/CLionProjects/push_swap/libft/ft_strrchr.c">
+		<Unit filename="/Users/tmann/Desktop/git_my_push_swap/libft/ft_strrchr.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/tmann/CLionProjects/push_swap/libft/ft_strsplit.c">
+		<Unit filename="/Users/tmann/Desktop/git_my_push_swap/libft/ft_strsplit.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/tmann/CLionProjects/push_swap/libft/ft_strstr.c">
+		<Unit filename="/Users/tmann/Desktop/git_my_push_swap/libft/ft_strstr.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/tmann/CLionProjects/push_swap/libft/ft_strsub.c">
+		<Unit filename="/Users/tmann/Desktop/git_my_push_swap/libft/ft_strsub.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/tmann/CLionProjects/push_swap/libft/ft_strtrim.c">
+		<Unit filename="/Users/tmann/Desktop/git_my_push_swap/libft/ft_strtrim.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/tmann/CLionProjects/push_swap/libft/ft_swap.c">
+		<Unit filename="/Users/tmann/Desktop/git_my_push_swap/libft/ft_swap.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/tmann/CLionProjects/push_swap/libft/ft_swappoint.c">
+		<Unit filename="/Users/tmann/Desktop/git_my_push_swap/libft/ft_swappoint.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/tmann/CLionProjects/push_swap/libft/ft_tolower.c">
+		<Unit filename="/Users/tmann/Desktop/git_my_push_swap/libft/ft_tolower.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/tmann/CLionProjects/push_swap/libft/ft_toupper.c">
+		<Unit filename="/Users/tmann/Desktop/git_my_push_swap/libft/ft_toupper.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/tmann/CLionProjects/push_swap/libft/ft_utoa_base.c">
+		<Unit filename="/Users/tmann/Desktop/git_my_push_swap/libft/ft_utoa_base.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/tmann/CLionProjects/push_swap/libft/ft_utoa_base_little.c">
+		<Unit filename="/Users/tmann/Desktop/git_my_push_swap/libft/ft_utoa_base_little.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/tmann/CLionProjects/push_swap/libft/libft.h">
+		<Unit filename="/Users/tmann/Desktop/git_my_push_swap/libft/libft.h">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/tmann/CLionProjects/push_swap/push_swap_file/ft_operations.c">
+		<Unit filename="/Users/tmann/Desktop/git_my_push_swap/push_swap_file/ft_operations.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/tmann/CLionProjects/push_swap/push_swap_file/ft_operations_p2.c">
+		<Unit filename="/Users/tmann/Desktop/git_my_push_swap/push_swap_file/ft_operations_p2.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/tmann/CLionProjects/push_swap/push_swap_file/ft_operations_p3.c">
+		<Unit filename="/Users/tmann/Desktop/git_my_push_swap/push_swap_file/ft_operations_p3.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/tmann/CLionProjects/push_swap/push_swap_file/ft_operations_p4.c">
+		<Unit filename="/Users/tmann/Desktop/git_my_push_swap/push_swap_file/ft_operations_p4.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/tmann/CLionProjects/push_swap/push_swap_file/ft_sort.c">
+		<Unit filename="/Users/tmann/Desktop/git_my_push_swap/push_swap_file/ft_sort.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/tmann/CLionProjects/push_swap/push_swap_file/header/push_swap.h">
+		<Unit filename="/Users/tmann/Desktop/git_my_push_swap/push_swap_file/header/push_swap.h">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/tmann/CLionProjects/push_swap/push_swap_file/main.c">
+		<Unit filename="/Users/tmann/Desktop/git_my_push_swap/push_swap_file/main.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/tmann/CLionProjects/push_swap/push_swap_file/scan_argv.c">
+		<Unit filename="/Users/tmann/Desktop/git_my_push_swap/push_swap_file/scan_argv.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/Users/tmann/CLionProjects/push_swap/CMakeLists.txt">
+		<Unit filename="/Users/tmann/Desktop/git_my_push_swap/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

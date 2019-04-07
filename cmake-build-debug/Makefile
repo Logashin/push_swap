@@ -48,10 +48,10 @@ RM = /private/var/folders/zz/zyxvpxvq6csfxvn_n0000vy00006zh/T/AppTranslocation/1
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/tmann/CLionProjects/push_swap
+CMAKE_SOURCE_DIR = /Users/tmann/Desktop/git_my_push_swap
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/tmann/CLionProjects/push_swap/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/tmann/Desktop/git_my_push_swap/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tmann/CLionProjects/push_swap/cmake-build-debug/CMakeFiles /Users/tmann/CLionProjects/push_swap/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tmann/Desktop/git_my_push_swap/cmake-build-debug/CMakeFiles /Users/tmann/Desktop/git_my_push_swap/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tmann/CLionProjects/push_swap/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tmann/Desktop/git_my_push_swap/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

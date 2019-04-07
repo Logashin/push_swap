@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/Users/tmann/CLionProjects/push_swap/libft/ft_printf/ft_printf.h
+/Users/tmann/Desktop/git_my_push_swap/libft/ft_printf/ft_printf.h
 unistd.h
 -
 stdlib.h
@@ -14,21 +14,21 @@ stdlib.h
 stdarg.h
 -
 ../libft.h
-/Users/tmann/CLionProjects/push_swap/libft/libft.h
+/Users/tmann/Desktop/git_my_push_swap/libft/libft.h
 
-/Users/tmann/CLionProjects/push_swap/libft/libft.h
+/Users/tmann/Desktop/git_my_push_swap/libft/libft.h
 string.h
 -
 stdlib.h
 -
 ft_printf/ft_printf.h
-/Users/tmann/CLionProjects/push_swap/libft/ft_printf/ft_printf.h
+/Users/tmann/Desktop/git_my_push_swap/libft/ft_printf/ft_printf.h
 
-/Users/tmann/CLionProjects/push_swap/push_swap_file/ft_sort.c
+/Users/tmann/Desktop/git_my_push_swap/push_swap_file/ft_sort.c
 header/push_swap.h
-/Users/tmann/CLionProjects/push_swap/push_swap_file/header/push_swap.h
+/Users/tmann/Desktop/git_my_push_swap/push_swap_file/header/push_swap.h
 
-/Users/tmann/CLionProjects/push_swap/push_swap_file/header/push_swap.h
+/Users/tmann/Desktop/git_my_push_swap/push_swap_file/header/push_swap.h
 ../../libft/libft.h
-/Users/tmann/CLionProjects/push_swap/libft/libft.h
+/Users/tmann/Desktop/git_my_push_swap/libft/libft.h
 
