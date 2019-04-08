@@ -22,7 +22,21 @@ typedef struct		s_swap
 	int				sizea;
 	int 			sizeb;
 	int				flag;
+	int				min;
+	int 			max;
+
 }					t_swap;
+
+typedef struct		s_count
+{
+	int 			a;
+	int				b;
+	int 			wa;
+	int 			wb;
+	int				res;
+	int 			*it;
+
+}					t_count;
 
 int					main (int argc, char **argv);
 t_swap				*scan_argv(t_swap *po, int argc, char **argv);
