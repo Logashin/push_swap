@@ -6,7 +6,7 @@
 /*   By: tmann <tmann@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/04/03 14:51:38 by tmann             #+#    #+#             */
-/*   Updated: 2019/04/05 15:08:26 by tmann            ###   ########.fr       */
+/*   Updated: 2019/04/08 21:00:46 by tmann            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,6 +24,7 @@ char			**readcom(int nb, char *tmp)
 		strbuf[nb] = '\0';
 		tmp = strmap;
 		strmap = ft_strjoin(strmap, strbuf);
+		val_command_read(strmap);
 		free(tmp);
 	}
 	twoarr = ft_strsplit(strmap, '\n');

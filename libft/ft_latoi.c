@@ -6,13 +6,13 @@
 /*   By: tmann <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/04/02 20:41:07 by tmann             #+#    #+#             */
-/*   Updated: 2019/04/02 20:41:25 by tmann            ###   ########.fr       */
+/*   Updated: 2019/04/08 21:03:25 by tmann            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-long	ft_latoi(const char *str)
+long		ft_latoi(const char *str)
 {
 	int				i;
 	long long int	res;
@@ -22,7 +22,7 @@ long	ft_latoi(const char *str)
 	res = 0;
 	otr = 1;
 	while (str[i] == ' ' || str[i] == '\t' || str[i] == '\r'
-		   || str[i] == '\f' || str[i] == '\v' || str[i] == '\n')
+			|| str[i] == '\f' || str[i] == '\v' || str[i] == '\n')
 		i++;
 	if (str[i] == '-')
 		otr = -1;

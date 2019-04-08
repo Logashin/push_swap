@@ -17,6 +17,9 @@ SRCPS = main.c \
 		ft_operations_p3.c \
 		ft_operations_p4.c \
 		ft_sort.c \
+		func_help_for_sort.c \
+		rotet_b_rr.c \
+		search_and_min_max.c \
 
 DIRCHECK = checker_file
 

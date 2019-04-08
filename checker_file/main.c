@@ -6,11 +6,34 @@
 /*   By: tmann <tmann@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/03/30 14:27:28 by tmann             #+#    #+#             */
-/*   Updated: 2019/04/05 15:07:02 by tmann            ###   ########.fr       */
+/*   Updated: 2019/04/08 21:01:43 by tmann            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "header/ft_checker.h"
+
+void		val_command_read(char *str)
+{
+	if ((str[0] == 's' && str[1] == 'a') ||
+	(str[0] == 's' && str[1] == 'b') ||
+	(str[0] == 's' && str[1] == 's') ||
+	(str[0] == 'p' && str[1] == 'a') ||
+	(str[0] == 'p' && str[1] == 'b') ||
+	(str[0] == 'r' && str[1] == 'a') ||
+	(str[0] == 'r' && str[1] == 'b') ||
+	(str[0] == 'r' && str[1] == 'r') ||
+	(str[0] == 'r' && str[1] == 'r' &&
+	str[2] == 'a') || (str[0] == 'r' &&
+	str[1] == 'r' && str[2] == 'b') ||
+	(str[0] == 'r' &&
+	str[1] == 'r' && str[2] == 'r'))
+		return ;
+	else
+	{
+		ft_printf("Error\n");
+		exit(0);
+	}
+}
 
 void		check_flag(char *str, t_swap *po, int argc)
 {

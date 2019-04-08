@@ -3,41 +3,21 @@
 /*                                                        :::      ::::::::   */
 /*   main.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: tmann <marvin@42.fr>                       +#+  +:+       +#+        */
+/*   By: tmann <tmann@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/03/27 14:27:46 by tmann             #+#    #+#             */
-/*   Updated: 2019/03/27 20:56:32 by tmann            ###   ########.fr       */
+/*   Updated: 2019/04/08 21:15:58 by tmann            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "header/push_swap.h"
 
-void		print_swap(t_swap *po)
+void		ft_zerostruct(t_count *co)
 {
-	int i;
-	int stop;
-
-	i = 0;
-	if (po->sizea >= po->sizeb)
-		stop = po->sizea;
-	else
-		stop = po->sizeb;
-	ft_printf("<************************>\n");
-	while (i < stop)
-	{
-		if (po->sizea <= i)
-			ft_printf("           |");
-		else
-			ft_printf("%11d|", po->arra[i]);
-		if (po->sizeb <= i)
-			ft_printf("   | \n");
-		else
-			ft_printf("   |%d\n", po->arrb[i]);
-		i++;
-	}
-	ft_printf("          _     _\n");
-	ft_printf("          a <*> b\n");
-	ft_printf("<************************>\n");
+	co->a = 0;
+	co->b = 0;
+	co->wa = 0;
+	co->wb = 0;
 }
 
 int			main(int argc, char **argv)
@@ -49,13 +29,14 @@ int			main(int argc, char **argv)
 	{
 		po = scan_argv(po, argc, argv);
 		ft_sort(po);
+		free(po->arra);
+		free(po->arrb);
+		free(po);
 	}
 	else
 	{
 		ft_printf("Error\n");
 		return (0);
 	}
-//	free(po->arra);
-//	free(po);
 	return (0);
 }

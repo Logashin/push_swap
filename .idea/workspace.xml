@@ -13,26 +13,19 @@
   <component name="ChangeListManager">
     <list default="true" id="ce761809-3b5d-4c0e-a707-39d0a2cfd6b7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/checker" beforeDir="false" afterPath="$PROJECT_DIR$/checker" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/push_swap.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/push_swap.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/push_swap.dir/push_swap_file/ft_operations.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/push_swap.dir/push_swap_file/ft_operations.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/push_swap.dir/push_swap_file/ft_operations_p2.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/push_swap.dir/push_swap_file/ft_operations_p2.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/push_swap.dir/push_swap_file/ft_operations_p3.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/push_swap.dir/push_swap_file/ft_operations_p3.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/push_swap.dir/push_swap_file/ft_operations_p4.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/push_swap.dir/push_swap_file/ft_operations_p4.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/push_swap.dir/push_swap_file/ft_sort.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/push_swap.dir/push_swap_file/ft_sort.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/push_swap.dir/push_swap_file/main.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/push_swap.dir/push_swap_file/main.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/push_swap.dir/push_swap_file/scan_argv.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/push_swap.dir/push_swap_file/scan_argv.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/push_swap" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/push_swap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checker_file/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checker_file/header/ft_checker.h" beforeDir="false" afterPath="$PROJECT_DIR$/checker_file/header/ft_checker.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checker_file/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/checker_file/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checker_file/usecommand.c" beforeDir="false" afterPath="$PROJECT_DIR$/checker_file/usecommand.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libft/ft_latoi.c" beforeDir="false" afterPath="$PROJECT_DIR$/libft/ft_latoi.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/libft/libft.a" beforeDir="false" afterPath="$PROJECT_DIR$/libft/libft.a" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/push_swap" beforeDir="false" afterPath="$PROJECT_DIR$/push_swap" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/push_swap.dSYM/Contents/Resources/DWARF/push_swap" beforeDir="false" afterPath="$PROJECT_DIR$/push_swap.dSYM/Contents/Resources/DWARF/push_swap" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/push_swap_file/ft_sort.c" beforeDir="false" afterPath="$PROJECT_DIR$/push_swap_file/ft_sort.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/push_swap_file/header/push_swap.h" beforeDir="false" afterPath="$PROJECT_DIR$/push_swap_file/header/push_swap.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/push_swap_file/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/push_swap_file/main.c" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -47,17 +40,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/push_swap_file/ft_sort.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="409">
-              <caret line="217" column="16" selection-start-line="217" selection-start-column="16" selection-end-line="217" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/push_swap_file/main.c">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="712">
-              <caret line="60" selection-start-line="60" selection-end-line="60" />
+            <state relative-caret-position="902">
+              <caret line="66" selection-start-line="66" selection-end-line="66" />
             </state>
           </provider>
         </entry>
@@ -65,8 +49,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/push_swap_file/header/push_swap.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="36" column="24" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
+            <state relative-caret-position="694">
+              <caret line="50" column="42" selection-start-line="50" selection-start-column="42" selection-end-line="50" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/push_swap_file/main.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="615">
+              <caret line="41" selection-start-line="41" selection-end-line="41" />
             </state>
           </provider>
         </entry>
@@ -156,30 +149,30 @@
       <option name="presentableId" value="Default" />
       <updated>1554658950566</updated>
       <workItem from="1554658952208" duration="2803000" />
-      <workItem from="1554722078928" duration="17336000" />
+      <workItem from="1554722078928" duration="19060000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20139000" />
+    <option name="totallyTimeSpent" value="21863000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="2880" height="1620" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25158563" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25158563" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32967743" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32967743" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39741936" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
       <window_info anchor="bottom" id="Messages" order="8" weight="0.32967743" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32967743" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32967743" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info anchor="bottom" id="CMake" order="12" />
@@ -193,15 +186,6 @@
     <option name="version" value="1" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/push_swap_file/ft_sort.c</url>
-          <line>295</line>
-          <option name="timeStamp" value="23" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <watches-manager>
       <configuration name="CMakeRunConfiguration">
         <watch expression="po-&gt;arrb[i]" language="ObjectiveC" />
@@ -218,24 +202,27 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/push_swap_file/header/push_swap.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" column="24" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/Makefile">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/push_swap_file/main.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="712">
-          <caret line="60" selection-start-line="60" selection-end-line="60" />
+        <state relative-caret-position="615">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/push_swap_file/header/push_swap.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="694">
+          <caret line="50" column="42" selection-start-line="50" selection-start-column="42" selection-end-line="50" selection-end-column="42" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/push_swap_file/ft_sort.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="217" column="16" selection-start-line="217" selection-start-column="16" selection-end-line="217" selection-end-column="16" />
+        <state relative-caret-position="902">
+          <caret line="66" selection-start-line="66" selection-end-line="66" />
         </state>
       </provider>
     </entry>
