@@ -72,6 +72,7 @@ FILEC =	ft_strlen.c \
 		ft_swap.c \
 		ft_latoi.c \
 		ft_free_two_arr.c \
+		ft_atoi_for_swap.c \
 
 FT_PRINTF =  	ft_printf.c \
 		ft_struct.c \

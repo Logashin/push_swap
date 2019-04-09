@@ -6,7 +6,7 @@
 /*   By: tmann <tmann@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/03/27 16:20:38 by tmann             #+#    #+#             */
-/*   Updated: 2019/04/03 13:58:58 by tmann            ###   ########.fr       */
+/*   Updated: 2019/04/09 20:15:57 by tmann            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,18 +39,13 @@ void		val_param(int argc, char **argv, int i, int j)
 	}
 }
 
-void		val_numb(char **str)
+void		val_numb(char **str, size_t i, size_t j)
 {
-	size_t i;
-	size_t j;
-
-	i = 0;
-	j = 1;
 	while (str[j] != NULL)
 	{
 		while (str[j] != NULL)
 		{
-			if (ft_atoi(str[i]) != ft_atoi(str[j]))
+			if (ft_swap_atoi(str[i]) != ft_swap_atoi(str[j]))
 				j++;
 			else
 			{
@@ -58,13 +53,18 @@ void		val_numb(char **str)
 				exit(0);
 			}
 		}
-		if (ft_latoi(str[i]) > 2147483647 || ft_latoi(str[i]) < -2147483648)
+		if (ft_swap_atoi(str[i]) > 2147483647 || ft_swap_atoi(str[i]) < -2147483648)
 		{
 			ft_printf("Error\n");
 			exit(0);
 		}
 		i++;
 		j = i + 1;
+	}
+	if (ft_swap_atoi(str[i]) > 2147483647 || ft_swap_atoi(str[i]) < -2147483648)
+	{
+		ft_printf("Error\n");
+		exit(0);
 	}
 }
 
@@ -83,14 +83,14 @@ void		creat_struct_arr(t_swap *po, char *str, int i, int j)
 		exit(0);
 	}
 	j = 0;
-	val_numb(arr);
+	val_numb(arr, 0, 1);
 	po->arra = (int*)malloc(sizeof(int) * po->sizearr);
 	po->arrb = (int*)malloc(sizeof(int) * po->sizearr);
 	while (arr[j] != NULL)
 	{
 		po->arra[i] = ft_atoi(arr[j]);
 		po->arrb[i] = 0;
-		free(arr[j]);
+		free(arr[i]);
 		i++;
 		j++;
 	}

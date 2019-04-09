@@ -6,7 +6,7 @@
 /*   By: tmann <tmann@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/03/27 14:27:46 by tmann             #+#    #+#             */
-/*   Updated: 2019/04/08 21:15:58 by tmann            ###   ########.fr       */
+/*   Updated: 2019/04/09 17:31:02 by tmann            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,11 +32,6 @@ int			main(int argc, char **argv)
 		free(po->arra);
 		free(po->arrb);
 		free(po);
-	}
-	else
-	{
-		ft_printf("Error\n");
-		return (0);
 	}
 	return (0);
 }

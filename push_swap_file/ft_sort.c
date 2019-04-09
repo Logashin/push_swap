@@ -6,7 +6,7 @@
 /*   By: tmann <tmann@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/04/01 13:15:14 by tmann             #+#    #+#             */
-/*   Updated: 2019/04/08 21:51:12 by tmann            ###   ########.fr       */
+/*   Updated: 2019/04/09 18:23:18 by tmann            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@ void		ft_sort(t_swap *po)
 	search_min_max(po);
 	if (checksort(po) == 0)
 		return ;
-	while (po->sizea != 3)
+	while (po->sizea != 3 && po->sizea > 3)
 	{
 		if (po->arra[0] != po->min && po->arra[0] != po->max)
 			ft_operations_pb(po);

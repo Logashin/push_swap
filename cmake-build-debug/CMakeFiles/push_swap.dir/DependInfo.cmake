@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
   "/Users/tmann/Desktop/git_my_push_swap/libft/ft_atoi.c" "/Users/tmann/Desktop/git_my_push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_atoi.c.o"
+  "/Users/tmann/Desktop/git_my_push_swap/libft/ft_atoi_for_swap.c" "/Users/tmann/Desktop/git_my_push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_atoi_for_swap.c.o"
   "/Users/tmann/Desktop/git_my_push_swap/libft/ft_bzero.c" "/Users/tmann/Desktop/git_my_push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_bzero.c.o"
   "/Users/tmann/Desktop/git_my_push_swap/libft/ft_countc.c" "/Users/tmann/Desktop/git_my_push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_countc.c.o"
   "/Users/tmann/Desktop/git_my_push_swap/libft/ft_countword.c" "/Users/tmann/Desktop/git_my_push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_countword.c.o"
@@ -96,8 +97,11 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/tmann/Desktop/git_my_push_swap/push_swap_file/ft_operations_p3.c" "/Users/tmann/Desktop/git_my_push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/push_swap_file/ft_operations_p3.c.o"
   "/Users/tmann/Desktop/git_my_push_swap/push_swap_file/ft_operations_p4.c" "/Users/tmann/Desktop/git_my_push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/push_swap_file/ft_operations_p4.c.o"
   "/Users/tmann/Desktop/git_my_push_swap/push_swap_file/ft_sort.c" "/Users/tmann/Desktop/git_my_push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/push_swap_file/ft_sort.c.o"
+  "/Users/tmann/Desktop/git_my_push_swap/push_swap_file/func_help_for_sort.c" "/Users/tmann/Desktop/git_my_push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/push_swap_file/func_help_for_sort.c.o"
   "/Users/tmann/Desktop/git_my_push_swap/push_swap_file/main.c" "/Users/tmann/Desktop/git_my_push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/push_swap_file/main.c.o"
+  "/Users/tmann/Desktop/git_my_push_swap/push_swap_file/rotet_b_rr.c" "/Users/tmann/Desktop/git_my_push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/push_swap_file/rotet_b_rr.c.o"
   "/Users/tmann/Desktop/git_my_push_swap/push_swap_file/scan_argv.c" "/Users/tmann/Desktop/git_my_push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/push_swap_file/scan_argv.c.o"
+  "/Users/tmann/Desktop/git_my_push_swap/push_swap_file/search_and_min_max.c" "/Users/tmann/Desktop/git_my_push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/push_swap_file/search_and_min_max.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 

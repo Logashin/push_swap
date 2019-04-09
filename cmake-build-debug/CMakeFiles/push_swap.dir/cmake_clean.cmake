@@ -1,4 +1,7 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/push_swap.dir/push_swap_file/search_and_min_max.c.o"
+  "CMakeFiles/push_swap.dir/push_swap_file/rotet_b_rr.c.o"
+  "CMakeFiles/push_swap.dir/push_swap_file/func_help_for_sort.c.o"
   "CMakeFiles/push_swap.dir/push_swap_file/main.c.o"
   "CMakeFiles/push_swap.dir/push_swap_file/scan_argv.c.o"
   "CMakeFiles/push_swap.dir/push_swap_file/ft_operations.c.o"
@@ -7,6 +10,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/push_swap.dir/push_swap_file/ft_sort.c.o"
   "CMakeFiles/push_swap.dir/push_swap_file/ft_operations_p4.c.o"
   "CMakeFiles/push_swap.dir/libft/ft_atoi.c.o"
+  "CMakeFiles/push_swap.dir/libft/ft_atoi_for_swap.c.o"
   "CMakeFiles/push_swap.dir/libft/ft_bzero.c.o"
   "CMakeFiles/push_swap.dir/libft/ft_countc.c.o"
   "CMakeFiles/push_swap.dir/libft/ft_countword.c.o"

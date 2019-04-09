@@ -5,6 +5,10 @@ CMakeFiles/push_swap.dir/libft/ft_atoi.c.o
  /Users/tmann/Desktop/git_my_push_swap/libft/ft_atoi.c
  /Users/tmann/Desktop/git_my_push_swap/libft/ft_printf/ft_printf.h
  /Users/tmann/Desktop/git_my_push_swap/libft/libft.h
+CMakeFiles/push_swap.dir/libft/ft_atoi_for_swap.c.o
+ /Users/tmann/Desktop/git_my_push_swap/libft/ft_atoi_for_swap.c
+ /Users/tmann/Desktop/git_my_push_swap/libft/ft_printf/ft_printf.h
+ /Users/tmann/Desktop/git_my_push_swap/libft/libft.h
 CMakeFiles/push_swap.dir/libft/ft_bzero.c.o
  /Users/tmann/Desktop/git_my_push_swap/libft/ft_bzero.c
  /Users/tmann/Desktop/git_my_push_swap/libft/ft_printf/ft_printf.h
@@ -374,13 +378,28 @@ CMakeFiles/push_swap.dir/push_swap_file/ft_sort.c.o
  /Users/tmann/Desktop/git_my_push_swap/libft/libft.h
  /Users/tmann/Desktop/git_my_push_swap/push_swap_file/ft_sort.c
  /Users/tmann/Desktop/git_my_push_swap/push_swap_file/header/push_swap.h
+CMakeFiles/push_swap.dir/push_swap_file/func_help_for_sort.c.o
+ /Users/tmann/Desktop/git_my_push_swap/libft/ft_printf/ft_printf.h
+ /Users/tmann/Desktop/git_my_push_swap/libft/libft.h
+ /Users/tmann/Desktop/git_my_push_swap/push_swap_file/func_help_for_sort.c
+ /Users/tmann/Desktop/git_my_push_swap/push_swap_file/header/push_swap.h
 CMakeFiles/push_swap.dir/push_swap_file/main.c.o
  /Users/tmann/Desktop/git_my_push_swap/libft/ft_printf/ft_printf.h
  /Users/tmann/Desktop/git_my_push_swap/libft/libft.h
  /Users/tmann/Desktop/git_my_push_swap/push_swap_file/header/push_swap.h
  /Users/tmann/Desktop/git_my_push_swap/push_swap_file/main.c
+CMakeFiles/push_swap.dir/push_swap_file/rotet_b_rr.c.o
+ /Users/tmann/Desktop/git_my_push_swap/libft/ft_printf/ft_printf.h
+ /Users/tmann/Desktop/git_my_push_swap/libft/libft.h
+ /Users/tmann/Desktop/git_my_push_swap/push_swap_file/header/push_swap.h
+ /Users/tmann/Desktop/git_my_push_swap/push_swap_file/rotet_b_rr.c
 CMakeFiles/push_swap.dir/push_swap_file/scan_argv.c.o
  /Users/tmann/Desktop/git_my_push_swap/libft/ft_printf/ft_printf.h
  /Users/tmann/Desktop/git_my_push_swap/libft/libft.h
  /Users/tmann/Desktop/git_my_push_swap/push_swap_file/header/push_swap.h
  /Users/tmann/Desktop/git_my_push_swap/push_swap_file/scan_argv.c
+CMakeFiles/push_swap.dir/push_swap_file/search_and_min_max.c.o
+ /Users/tmann/Desktop/git_my_push_swap/libft/ft_printf/ft_printf.h
+ /Users/tmann/Desktop/git_my_push_swap/libft/libft.h
+ /Users/tmann/Desktop/git_my_push_swap/push_swap_file/header/push_swap.h
+ /Users/tmann/Desktop/git_my_push_swap/push_swap_file/search_and_min_max.c

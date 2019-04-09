@@ -5,6 +5,10 @@ CMakeFiles/push_swap.dir/libft/ft_atoi.c.o: ../libft/ft_atoi.c
 CMakeFiles/push_swap.dir/libft/ft_atoi.c.o: ../libft/ft_printf/ft_printf.h
 CMakeFiles/push_swap.dir/libft/ft_atoi.c.o: ../libft/libft.h
 
+CMakeFiles/push_swap.dir/libft/ft_atoi_for_swap.c.o: ../libft/ft_atoi_for_swap.c
+CMakeFiles/push_swap.dir/libft/ft_atoi_for_swap.c.o: ../libft/ft_printf/ft_printf.h
+CMakeFiles/push_swap.dir/libft/ft_atoi_for_swap.c.o: ../libft/libft.h
+
 CMakeFiles/push_swap.dir/libft/ft_bzero.c.o: ../libft/ft_bzero.c
 CMakeFiles/push_swap.dir/libft/ft_bzero.c.o: ../libft/ft_printf/ft_printf.h
 CMakeFiles/push_swap.dir/libft/ft_bzero.c.o: ../libft/libft.h
@@ -374,13 +378,28 @@ CMakeFiles/push_swap.dir/push_swap_file/ft_sort.c.o: ../libft/libft.h
 CMakeFiles/push_swap.dir/push_swap_file/ft_sort.c.o: ../push_swap_file/ft_sort.c
 CMakeFiles/push_swap.dir/push_swap_file/ft_sort.c.o: ../push_swap_file/header/push_swap.h
 
+CMakeFiles/push_swap.dir/push_swap_file/func_help_for_sort.c.o: ../libft/ft_printf/ft_printf.h
+CMakeFiles/push_swap.dir/push_swap_file/func_help_for_sort.c.o: ../libft/libft.h
+CMakeFiles/push_swap.dir/push_swap_file/func_help_for_sort.c.o: ../push_swap_file/func_help_for_sort.c
+CMakeFiles/push_swap.dir/push_swap_file/func_help_for_sort.c.o: ../push_swap_file/header/push_swap.h
+
 CMakeFiles/push_swap.dir/push_swap_file/main.c.o: ../libft/ft_printf/ft_printf.h
 CMakeFiles/push_swap.dir/push_swap_file/main.c.o: ../libft/libft.h
 CMakeFiles/push_swap.dir/push_swap_file/main.c.o: ../push_swap_file/header/push_swap.h
 CMakeFiles/push_swap.dir/push_swap_file/main.c.o: ../push_swap_file/main.c
 
+CMakeFiles/push_swap.dir/push_swap_file/rotet_b_rr.c.o: ../libft/ft_printf/ft_printf.h
+CMakeFiles/push_swap.dir/push_swap_file/rotet_b_rr.c.o: ../libft/libft.h
+CMakeFiles/push_swap.dir/push_swap_file/rotet_b_rr.c.o: ../push_swap_file/header/push_swap.h
+CMakeFiles/push_swap.dir/push_swap_file/rotet_b_rr.c.o: ../push_swap_file/rotet_b_rr.c
+
 CMakeFiles/push_swap.dir/push_swap_file/scan_argv.c.o: ../libft/ft_printf/ft_printf.h
 CMakeFiles/push_swap.dir/push_swap_file/scan_argv.c.o: ../libft/libft.h
 CMakeFiles/push_swap.dir/push_swap_file/scan_argv.c.o: ../push_swap_file/header/push_swap.h
 CMakeFiles/push_swap.dir/push_swap_file/scan_argv.c.o: ../push_swap_file/scan_argv.c
+
+CMakeFiles/push_swap.dir/push_swap_file/search_and_min_max.c.o: ../libft/ft_printf/ft_printf.h
+CMakeFiles/push_swap.dir/push_swap_file/search_and_min_max.c.o: ../libft/libft.h
+CMakeFiles/push_swap.dir/push_swap_file/search_and_min_max.c.o: ../push_swap_file/header/push_swap.h
+CMakeFiles/push_swap.dir/push_swap_file/search_and_min_max.c.o: ../push_swap_file/search_and_min_max.c
 

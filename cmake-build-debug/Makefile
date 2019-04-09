@@ -39,10 +39,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /private/var/folders/zz/zyxvpxvq6csfxvn_n0000vy00006zh/T/AppTranslocation/166EE7C7-F140-4B40-B66F-B8DE7A441BE7/d/CLion.app/Contents/bin/cmake/mac/bin/cmake
+CMAKE_COMMAND = /private/var/folders/zz/zyxvpxvq6csfxvn_n0000vy00006zh/T/AppTranslocation/7A7E3B98-AB81-4AB0-A992-D2BD47E4AA6C/d/CLion.app/Contents/bin/cmake/mac/bin/cmake
 
 # The command to remove a file.
-RM = /private/var/folders/zz/zyxvpxvq6csfxvn_n0000vy00006zh/T/AppTranslocation/166EE7C7-F140-4B40-B66F-B8DE7A441BE7/d/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
+RM = /private/var/folders/zz/zyxvpxvq6csfxvn_n0000vy00006zh/T/AppTranslocation/7A7E3B98-AB81-4AB0-A992-D2BD47E4AA6C/d/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /Users/tmann/Desktop/git_my_push_swap/cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/private/var/folders/zz/zyxvpxvq6csfxvn_n0000vy00006zh/T/AppTranslocation/166EE7C7-F140-4B40-B66F-B8DE7A441BE7/d/CLion.app/Contents/bin/cmake/mac/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/private/var/folders/zz/zyxvpxvq6csfxvn_n0000vy00006zh/T/AppTranslocation/7A7E3B98-AB81-4AB0-A992-D2BD47E4AA6C/d/CLion.app/Contents/bin/cmake/mac/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/private/var/folders/zz/zyxvpxvq6csfxvn_n0000vy00006zh/T/AppTranslocation/166EE7C7-F140-4B40-B66F-B8DE7A441BE7/d/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/private/var/folders/zz/zyxvpxvq6csfxvn_n0000vy00006zh/T/AppTranslocation/7A7E3B98-AB81-4AB0-A992-D2BD47E4AA6C/d/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -149,6 +149,33 @@ libft/ft_atoi.s: libft/ft_atoi.c.s
 libft/ft_atoi.c.s:
 	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/ft_atoi.c.s
 .PHONY : libft/ft_atoi.c.s
+
+libft/ft_atoi_for_swap.o: libft/ft_atoi_for_swap.c.o
+
+.PHONY : libft/ft_atoi_for_swap.o
+
+# target to build an object file
+libft/ft_atoi_for_swap.c.o:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/ft_atoi_for_swap.c.o
+.PHONY : libft/ft_atoi_for_swap.c.o
+
+libft/ft_atoi_for_swap.i: libft/ft_atoi_for_swap.c.i
+
+.PHONY : libft/ft_atoi_for_swap.i
+
+# target to preprocess a source file
+libft/ft_atoi_for_swap.c.i:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/ft_atoi_for_swap.c.i
+.PHONY : libft/ft_atoi_for_swap.c.i
+
+libft/ft_atoi_for_swap.s: libft/ft_atoi_for_swap.c.s
+
+.PHONY : libft/ft_atoi_for_swap.s
+
+# target to generate assembly for a file
+libft/ft_atoi_for_swap.c.s:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/ft_atoi_for_swap.c.s
+.PHONY : libft/ft_atoi_for_swap.c.s
 
 libft/ft_bzero.o: libft/ft_bzero.c.o
 
@@ -2607,6 +2634,33 @@ push_swap_file/ft_sort.c.s:
 	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/push_swap_file/ft_sort.c.s
 .PHONY : push_swap_file/ft_sort.c.s
 
+push_swap_file/func_help_for_sort.o: push_swap_file/func_help_for_sort.c.o
+
+.PHONY : push_swap_file/func_help_for_sort.o
+
+# target to build an object file
+push_swap_file/func_help_for_sort.c.o:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/push_swap_file/func_help_for_sort.c.o
+.PHONY : push_swap_file/func_help_for_sort.c.o
+
+push_swap_file/func_help_for_sort.i: push_swap_file/func_help_for_sort.c.i
+
+.PHONY : push_swap_file/func_help_for_sort.i
+
+# target to preprocess a source file
+push_swap_file/func_help_for_sort.c.i:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/push_swap_file/func_help_for_sort.c.i
+.PHONY : push_swap_file/func_help_for_sort.c.i
+
+push_swap_file/func_help_for_sort.s: push_swap_file/func_help_for_sort.c.s
+
+.PHONY : push_swap_file/func_help_for_sort.s
+
+# target to generate assembly for a file
+push_swap_file/func_help_for_sort.c.s:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/push_swap_file/func_help_for_sort.c.s
+.PHONY : push_swap_file/func_help_for_sort.c.s
+
 push_swap_file/main.o: push_swap_file/main.c.o
 
 .PHONY : push_swap_file/main.o
@@ -2633,6 +2687,33 @@ push_swap_file/main.s: push_swap_file/main.c.s
 push_swap_file/main.c.s:
 	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/push_swap_file/main.c.s
 .PHONY : push_swap_file/main.c.s
+
+push_swap_file/rotet_b_rr.o: push_swap_file/rotet_b_rr.c.o
+
+.PHONY : push_swap_file/rotet_b_rr.o
+
+# target to build an object file
+push_swap_file/rotet_b_rr.c.o:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/push_swap_file/rotet_b_rr.c.o
+.PHONY : push_swap_file/rotet_b_rr.c.o
+
+push_swap_file/rotet_b_rr.i: push_swap_file/rotet_b_rr.c.i
+
+.PHONY : push_swap_file/rotet_b_rr.i
+
+# target to preprocess a source file
+push_swap_file/rotet_b_rr.c.i:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/push_swap_file/rotet_b_rr.c.i
+.PHONY : push_swap_file/rotet_b_rr.c.i
+
+push_swap_file/rotet_b_rr.s: push_swap_file/rotet_b_rr.c.s
+
+.PHONY : push_swap_file/rotet_b_rr.s
+
+# target to generate assembly for a file
+push_swap_file/rotet_b_rr.c.s:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/push_swap_file/rotet_b_rr.c.s
+.PHONY : push_swap_file/rotet_b_rr.c.s
 
 push_swap_file/scan_argv.o: push_swap_file/scan_argv.c.o
 
@@ -2661,6 +2742,33 @@ push_swap_file/scan_argv.c.s:
 	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/push_swap_file/scan_argv.c.s
 .PHONY : push_swap_file/scan_argv.c.s
 
+push_swap_file/search_and_min_max.o: push_swap_file/search_and_min_max.c.o
+
+.PHONY : push_swap_file/search_and_min_max.o
+
+# target to build an object file
+push_swap_file/search_and_min_max.c.o:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/push_swap_file/search_and_min_max.c.o
+.PHONY : push_swap_file/search_and_min_max.c.o
+
+push_swap_file/search_and_min_max.i: push_swap_file/search_and_min_max.c.i
+
+.PHONY : push_swap_file/search_and_min_max.i
+
+# target to preprocess a source file
+push_swap_file/search_and_min_max.c.i:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/push_swap_file/search_and_min_max.c.i
+.PHONY : push_swap_file/search_and_min_max.c.i
+
+push_swap_file/search_and_min_max.s: push_swap_file/search_and_min_max.c.s
+
+.PHONY : push_swap_file/search_and_min_max.s
+
+# target to generate assembly for a file
+push_swap_file/search_and_min_max.c.s:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/push_swap_file/search_and_min_max.c.s
+.PHONY : push_swap_file/search_and_min_max.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -2673,6 +2781,9 @@ help:
 	@echo "... libft/ft_atoi.o"
 	@echo "... libft/ft_atoi.i"
 	@echo "... libft/ft_atoi.s"
+	@echo "... libft/ft_atoi_for_swap.o"
+	@echo "... libft/ft_atoi_for_swap.i"
+	@echo "... libft/ft_atoi_for_swap.s"
 	@echo "... libft/ft_bzero.o"
 	@echo "... libft/ft_bzero.i"
 	@echo "... libft/ft_bzero.s"
@@ -2946,12 +3057,21 @@ help:
 	@echo "... push_swap_file/ft_sort.o"
 	@echo "... push_swap_file/ft_sort.i"
 	@echo "... push_swap_file/ft_sort.s"
+	@echo "... push_swap_file/func_help_for_sort.o"
+	@echo "... push_swap_file/func_help_for_sort.i"
+	@echo "... push_swap_file/func_help_for_sort.s"
 	@echo "... push_swap_file/main.o"
 	@echo "... push_swap_file/main.i"
 	@echo "... push_swap_file/main.s"
+	@echo "... push_swap_file/rotet_b_rr.o"
+	@echo "... push_swap_file/rotet_b_rr.i"
+	@echo "... push_swap_file/rotet_b_rr.s"
 	@echo "... push_swap_file/scan_argv.o"
 	@echo "... push_swap_file/scan_argv.i"
 	@echo "... push_swap_file/scan_argv.s"
+	@echo "... push_swap_file/search_and_min_max.o"
+	@echo "... push_swap_file/search_and_min_max.i"
+	@echo "... push_swap_file/search_and_min_max.s"
 .PHONY : help
 
 

@@ -83,6 +83,9 @@
 		<Unit filename="/Users/tmann/Desktop/git_my_push_swap/libft/ft_atoi.c">
 			<Option target="push_swap"/>
 		</Unit>
+		<Unit filename="/Users/tmann/Desktop/git_my_push_swap/libft/ft_atoi_for_swap.c">
+			<Option target="push_swap"/>
+		</Unit>
 		<Unit filename="/Users/tmann/Desktop/git_my_push_swap/libft/ft_bzero.c">
 			<Option target="push_swap"/>
 		</Unit>
@@ -362,13 +365,22 @@
 		<Unit filename="/Users/tmann/Desktop/git_my_push_swap/push_swap_file/ft_sort.c">
 			<Option target="push_swap"/>
 		</Unit>
+		<Unit filename="/Users/tmann/Desktop/git_my_push_swap/push_swap_file/func_help_for_sort.c">
+			<Option target="push_swap"/>
+		</Unit>
 		<Unit filename="/Users/tmann/Desktop/git_my_push_swap/push_swap_file/header/push_swap.h">
 			<Option target="push_swap"/>
 		</Unit>
 		<Unit filename="/Users/tmann/Desktop/git_my_push_swap/push_swap_file/main.c">
 			<Option target="push_swap"/>
 		</Unit>
+		<Unit filename="/Users/tmann/Desktop/git_my_push_swap/push_swap_file/rotet_b_rr.c">
+			<Option target="push_swap"/>
+		</Unit>
 		<Unit filename="/Users/tmann/Desktop/git_my_push_swap/push_swap_file/scan_argv.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/Users/tmann/Desktop/git_my_push_swap/push_swap_file/search_and_min_max.c">
 			<Option target="push_swap"/>
 		</Unit>
 		<Unit filename="/Users/tmann/Desktop/git_my_push_swap/CMakeLists.txt">

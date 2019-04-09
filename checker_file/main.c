@@ -6,7 +6,7 @@
 /*   By: tmann <tmann@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/03/30 14:27:28 by tmann             #+#    #+#             */
-/*   Updated: 2019/04/08 21:01:43 by tmann            ###   ########.fr       */
+/*   Updated: 2019/04/09 16:29:57 by tmann            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,7 +40,10 @@ void		check_flag(char *str, t_swap *po, int argc)
 	if (str[0] == '-' && str[1] == 'v')
 		po->flag = 2;
 	else
+	{
 		po->flag = 1;
+		return ;
+	}
 	if (argc < 3)
 	{
 		ft_printf("Error\n");
@@ -93,7 +96,5 @@ int			main(int argc, char **argv)
 		ft_free_two_arr(com);
 		free(po);
 	}
-	else
-		ft_printf("Error\n");
 	return (0);
 }

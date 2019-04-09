@@ -6,7 +6,7 @@
 /*   By: tmann <tmann@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/04/02 19:55:04 by tmann             #+#    #+#             */
-/*   Updated: 2019/04/08 20:59:32 by tmann            ###   ########.fr       */
+/*   Updated: 2019/04/09 17:29:29 by tmann            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@
 t_swap				*ccheck_argv(t_swap *po,
 						int argc, char **argv);
 void				cval_param(int argc, char **argv, int i, int j);
-void				cval_numb(char **str);
+void				cval_numb(char **str, size_t i, size_t j);
 void				ccreat_struct_arr(t_swap *po, char *str, int i, int j);
 void				ccreat_one_str(t_swap *po, int argc, char **argv);
 void				check_flag(char *str, t_swap *po, int argc);

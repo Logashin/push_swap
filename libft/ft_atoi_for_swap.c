@@ -1,18 +1,18 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_latoi.c                                         :+:      :+:    :+:   */
+/*   ft_atoi_for_swap.c                                 :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: tmann <tmann@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2019/04/02 20:41:07 by tmann             #+#    #+#             */
-/*   Updated: 2019/04/09 17:07:48 by tmann            ###   ########.fr       */
+/*   Created: 2019/04/09 17:30:11 by tmann             #+#    #+#             */
+/*   Updated: 2019/04/09 17:46:11 by tmann            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-long		ft_latoi(const char *str)
+long		ft_swap_atoi(const char *str)
 {
 	int				i;
 	long long int	res;
@@ -21,9 +21,14 @@ long		ft_latoi(const char *str)
 	i = 0;
 	res = 0;
 	otr = 1;
-	while (str[i] == ' ' || str[i] == '\t' || str[i] == '\r'
-			|| str[i] == '\f' || str[i] == '\v' || str[i] == '\n')
+	while (str[i] != '\0')
 		i++;
+	if (i > 11)
+	{
+		ft_printf("Error\n");
+		exit(0);
+	}
+    i = 0;
 	if (str[i] == '-')
 		otr = -1;
 	if (str[i] == '+' || str[i] == '-')

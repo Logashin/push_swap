@@ -6,7 +6,7 @@
 /*   By: tmann <tmann@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/04/02 19:55:31 by tmann             #+#    #+#             */
-/*   Updated: 2019/04/08 22:23:57 by tmann            ###   ########.fr       */
+/*   Updated: 2019/04/09 17:33:10 by tmann            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,7 +40,7 @@ typedef struct		s_count
 int					main (int argc, char **argv);
 t_swap				*scan_argv(t_swap *po, int argc, char **argv);
 void				val_param(int argc, char **argv, int i, int j);
-void				val_numb(char **str);
+void				val_numb(char **str, size_t i, size_t j);
 void				creat_one_str(t_swap *po, int argc, char **argv);
 void				creat_struct_arr(t_swap *po, char *str, int i, int j);
 void				ft_operations_sa(t_swap *po);

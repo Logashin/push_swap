@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_operations.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: tmann <marvin@42.fr>                       +#+  +:+       +#+        */
+/*   By: tmann <tmann@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/03/28 18:33:15 by tmann             #+#    #+#             */
-/*   Updated: 2019/03/28 18:33:17 by tmann            ###   ########.fr       */
+/*   Updated: 2019/04/09 20:28:08 by tmann            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@ void		ft_operations_pa(t_swap *po, int i)
 	if (po->sizea >= 0)
 	{
 		i = po->sizea;
-		while (i >= 0)
+		while (i > 0)
 		{
 			po->arra[i] = po->arra[i - 1];
 			i--;
