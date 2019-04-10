@@ -95,6 +95,9 @@
 		<Unit filename="/Users/tmann/Desktop/git_my_push_swap/libft/ft_countword.c">
 			<Option target="push_swap"/>
 		</Unit>
+		<Unit filename="/Users/tmann/Desktop/git_my_push_swap/libft/ft_error_ps.c">
+			<Option target="push_swap"/>
+		</Unit>
 		<Unit filename="/Users/tmann/Desktop/git_my_push_swap/libft/ft_free_two_arr.c">
 			<Option target="push_swap"/>
 		</Unit>

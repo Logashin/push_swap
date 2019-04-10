@@ -6,7 +6,7 @@
 /*   By: tmann <tmann@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/03/27 16:20:38 by tmann             #+#    #+#             */
-/*   Updated: 2019/04/09 20:15:57 by tmann            ###   ########.fr       */
+/*   Updated: 2019/04/09 21:57:17 by tmann            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -53,19 +53,14 @@ void		val_numb(char **str, size_t i, size_t j)
 				exit(0);
 			}
 		}
-		if (ft_swap_atoi(str[i]) > 2147483647 || ft_swap_atoi(str[i]) < -2147483648)
-		{
-			ft_printf("Error\n");
-			exit(0);
-		}
+		if (ft_swap_atoi(str[i]) > 2147483647 ||
+				ft_swap_atoi(str[i]) < -2147483648)
+			ft_error_ps();
 		i++;
 		j = i + 1;
 	}
 	if (ft_swap_atoi(str[i]) > 2147483647 || ft_swap_atoi(str[i]) < -2147483648)
-	{
-		ft_printf("Error\n");
-		exit(0);
-	}
+		ft_error_ps();
 }
 
 void		creat_struct_arr(t_swap *po, char *str, int i, int j)

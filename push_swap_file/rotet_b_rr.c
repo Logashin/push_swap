@@ -6,7 +6,7 @@
 /*   By: tmann <tmann@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/04/08 21:22:10 by tmann             #+#    #+#             */
-/*   Updated: 2019/04/09 20:22:30 by tmann            ###   ########.fr       */
+/*   Updated: 2019/04/09 21:44:11 by tmann            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,19 +20,16 @@ void			rotet_b_rr(t_swap *po)
 	ft_rot_for_rr(po, co);
 	ft_rot_for_rrr(po, co);
 	if (ft_rot_for_rb(po, co) == 1)
+	{
+		free(co);
 		return ;
+	}
 	if (co->b > 0 && co->wb == 2)
 	{
 		while (co->b != 0)
 		{
 			ft_operations_rrb(po);
 			co->b--;
-			if (po->arra[0] > po->arrb[0] &&
-				po->arra[po->sizea - 1] < po->arrb[0] && po->sizeb > 0)
-			{
-				ft_operations_pa(po, 0);
-				return ;
-			}
 		}
 	}
 	ft_rot_for_a(po, co);

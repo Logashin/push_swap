@@ -6,7 +6,7 @@
 /*   By: tmann <tmann@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/04/03 14:51:38 by tmann             #+#    #+#             */
-/*   Updated: 2019/04/08 21:00:46 by tmann            ###   ########.fr       */
+/*   Updated: 2019/04/09 22:04:25 by tmann            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,8 +28,8 @@ char			**readcom(int nb, char *tmp)
 		free(tmp);
 	}
 	twoarr = ft_strsplit(strmap, '\n');
-	val_command(twoarr);
 	free(strmap);
+	val_command(twoarr);
 	return (twoarr);
 }
 

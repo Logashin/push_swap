@@ -24,11 +24,8 @@ long		ft_swap_atoi(const char *str)
 	while (str[i] != '\0')
 		i++;
 	if (i > 11)
-	{
-		ft_printf("Error\n");
-		exit(0);
-	}
-    i = 0;
+		ft_error_ps();
+	i = 0;
 	if (str[i] == '-')
 		otr = -1;
 	if (str[i] == '+' || str[i] == '-')

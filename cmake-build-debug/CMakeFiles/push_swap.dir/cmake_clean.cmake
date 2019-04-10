@@ -14,6 +14,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/push_swap.dir/libft/ft_bzero.c.o"
   "CMakeFiles/push_swap.dir/libft/ft_countc.c.o"
   "CMakeFiles/push_swap.dir/libft/ft_countword.c.o"
+  "CMakeFiles/push_swap.dir/libft/ft_error_ps.c.o"
   "CMakeFiles/push_swap.dir/libft/ft_free_two_arr.c.o"
   "CMakeFiles/push_swap.dir/libft/ft_freearr.c.o"
   "CMakeFiles/push_swap.dir/libft/ft_intsize.c.o"

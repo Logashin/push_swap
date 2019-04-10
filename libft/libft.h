@@ -98,5 +98,6 @@ void				ft_swap(int *a, int *b);
 long				ft_latoi(const char *str);
 void				ft_free_two_arr(char **str);
 long				ft_swap_atoi(const char *str);
+void				ft_error_ps(void);
 
 #endif

@@ -21,6 +21,10 @@ CMakeFiles/push_swap.dir/libft/ft_countword.c.o: ../libft/ft_countword.c
 CMakeFiles/push_swap.dir/libft/ft_countword.c.o: ../libft/ft_printf/ft_printf.h
 CMakeFiles/push_swap.dir/libft/ft_countword.c.o: ../libft/libft.h
 
+CMakeFiles/push_swap.dir/libft/ft_error_ps.c.o: ../libft/ft_error_ps.c
+CMakeFiles/push_swap.dir/libft/ft_error_ps.c.o: ../libft/ft_printf/ft_printf.h
+CMakeFiles/push_swap.dir/libft/ft_error_ps.c.o: ../libft/libft.h
+
 CMakeFiles/push_swap.dir/libft/ft_free_two_arr.c.o: ../libft/ft_free_two_arr.c
 CMakeFiles/push_swap.dir/libft/ft_free_two_arr.c.o: ../libft/ft_printf/ft_printf.h
 CMakeFiles/push_swap.dir/libft/ft_free_two_arr.c.o: ../libft/libft.h

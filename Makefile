@@ -38,7 +38,7 @@ $(NAMEC): $(FCC)
 
 $(NAME): $(FCPS)
 		make -C libft
-		gcc -g -Wall -Werror -Wextra $(FCPS) $(INCLUDES) -o $(NAME)
+		gcc -Wall -Werror -Wextra $(FCPS) $(INCLUDES) -o $(NAME)
 
 clean: 
 		make clean -C libft

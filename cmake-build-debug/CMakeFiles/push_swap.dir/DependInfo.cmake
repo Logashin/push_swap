@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/tmann/Desktop/git_my_push_swap/libft/ft_bzero.c" "/Users/tmann/Desktop/git_my_push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_bzero.c.o"
   "/Users/tmann/Desktop/git_my_push_swap/libft/ft_countc.c" "/Users/tmann/Desktop/git_my_push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_countc.c.o"
   "/Users/tmann/Desktop/git_my_push_swap/libft/ft_countword.c" "/Users/tmann/Desktop/git_my_push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_countword.c.o"
+  "/Users/tmann/Desktop/git_my_push_swap/libft/ft_error_ps.c" "/Users/tmann/Desktop/git_my_push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_error_ps.c.o"
   "/Users/tmann/Desktop/git_my_push_swap/libft/ft_free_two_arr.c" "/Users/tmann/Desktop/git_my_push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_free_two_arr.c.o"
   "/Users/tmann/Desktop/git_my_push_swap/libft/ft_freearr.c" "/Users/tmann/Desktop/git_my_push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_freearr.c.o"
   "/Users/tmann/Desktop/git_my_push_swap/libft/ft_intsize.c" "/Users/tmann/Desktop/git_my_push_swap/cmake-build-debug/CMakeFiles/push_swap.dir/libft/ft_intsize.c.o"

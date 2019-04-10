@@ -6,7 +6,7 @@
 /*   By: tmann <tmann@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/03/29 19:20:56 by tmann             #+#    #+#             */
-/*   Updated: 2019/04/03 17:17:47 by tmann            ###   ########.fr       */
+/*   Updated: 2019/04/09 21:29:33 by tmann            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@ void		ft_operations_rra(t_swap *po)
 	int i;
 
 	tmp = po->arra[po->sizea - 1];
-	i = po->sizea;
+	i = po->sizea - 1;
 	while (i > 0)
 	{
 		po->arra[i] = po->arra[i - 1];
