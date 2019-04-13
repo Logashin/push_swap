@@ -37,7 +37,6 @@ typedef struct		s_count
 
 }					t_count;
 
-int					main (int argc, char **argv);
 t_swap				*scan_argv(t_swap *po, int argc, char **argv);
 void				val_param(int argc, char **argv, int i, int j);
 void				val_numb(char **str, size_t i, size_t j);
